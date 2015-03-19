@@ -153,6 +153,9 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hVc64My5EeS8k_f0aM8z0Q" name="Estado" visibility="private" type="_RDKYIMy5EeS8k_f0aM8z0Q"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_WAWEMFViEeSKoOni51OQkg" name="jgjug"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OfhosM5kEeSn1M-rWoKTxg" name="Crear_Sprint">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ofhosc5kEeSn1M-rWoKTxg" name="creado_sprint" type="_eD6S8FE5EeSLed2XihD4SA" direction="return"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fXXe4FE5EeSLed2XihD4SA" name="Flujo">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hQ4v0FE6EeSLed2XihD4SA" name="Flujo_Id" visibility="private">
@@ -170,6 +173,9 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FuwUkMzNEeS8k_f0aM8z0Q" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fuw7oMzNEeS8k_f0aM8z0Q" value="*"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_slsngM5jEeSn1M-rWoKTxg" name="Crear_flujo">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9K7UYM5jEeSn1M-rWoKTxg" name="creado_flujo" type="_fXXe4FE5EeSLed2XihD4SA" direction="return"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_gWVBgFE5EeSLed2XihD4SA" name="Actividad">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_heREgFE6EeSLed2XihD4SA" name="Acitividad_Id" visibility="private">
@@ -193,6 +199,9 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_iNSacMy8EeS8k_f0aM8z0Q" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_iNTBgMy8EeS8k_f0aM8z0Q" value="*"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_F552sM5kEeSn1M-rWoKTxg" name="Crear_actividad">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_F552sc5kEeSn1M-rWoKTxg" name="actividad_creada" type="_gWVBgFE5EeSLed2XihD4SA" direction="return"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lnYEYFE5EeSLed2XihD4SA" name="HU">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hW7tcFE6EeSLed2XihD4SA" name="HU_Id" visibility="private">
@@ -265,6 +274,11 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_irQjUczREeS8k_f0aM8z0Q" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_irQjUszREeS8k_f0aM8z0Q" value="*"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hnLrgM5jEeSn1M-rWoKTxg" name="Crear_Historial">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_pZDFUM5jEeSn1M-rWoKTxg" name="creado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_qiycMFE-EeSLed2XihD4SA" name="contiene" memberEnd="_qiycMVE-EeSLed2XihD4SA _qix1IFE-EeSLed2XihD4SA">
     <ownedEnd xmi:type="uml:Property" xmi:id="_qiycMVE-EeSLed2XihD4SA" name="rol" type="_W4As8FE5EeSLed2XihD4SA" association="_qiycMFE-EeSLed2XihD4SA">
