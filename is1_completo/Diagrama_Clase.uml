@@ -53,14 +53,49 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       </ownedParameter>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_uRfXwM5fEeSeXJaYBLqIog" name="usuario_creado" type="_Vd-X4FE5EeSLed2XihD4SA" direction="return"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_9R7REM5fEeSeXJaYBLqIog" name="activar">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CAIsoM5gEeSeXJaYBLqIog" name="activado" direction="return">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vmLKYM5tEeSp_qLPgWRl-Q" name="inactivar_usuario">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9aE_IM5tEeSp_qLPgWRl-Q" name="Usuario" type="_Vd-X4FE5EeSLed2XihD4SA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eu-uUM5uEeSp_qLPgWRl-Q" name="is_active">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_jeWAcM5uEeSp_qLPgWRl-Q" name="Usuario" type="_Vd-X4FE5EeSLed2XihD4SA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_mw59YM5uEeSp_qLPgWRl-Q" name="autenticar">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tf92YM5uEeSp_qLPgWRl-Q" name="Nombre_Id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_xfHzkM5uEeSp_qLPgWRl-Q" name="Contraseña">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_9qe7AM5fEeSeXJaYBLqIog" name="desactivar">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_F8-VoM5gEeSeXJaYBLqIog" name="desactivado" direction="return">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_LIYFsM5vEeSp_qLPgWRl-Q" name="get_Usuario">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Q-in0M5vEeSp_qLPgWRl-Q" name="Nombre_Id" direction="out">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aC5kQM5vEeSp_qLPgWRl-Q" name="Nombre" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_g6jYkM5vEeSp_qLPgWRl-Q" name="Apellido" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_m44_QM5vEeSp_qLPgWRl-Q" name="Correo" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_q4JqIM5vEeSp_qLPgWRl-Q" name="set_Ussuario">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5O5tQM5vEeSp_qLPgWRl-Q" name="Nombre_Id" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_72DVsM5vEeSp_qLPgWRl-Q" name="Nombre" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-CUY8M5vEeSp_qLPgWRl-Q" name="Apellido" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GlFrQM5wEeSp_qLPgWRl-Q" name="Contraseña" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JINvUM5wEeSp_qLPgWRl-Q" name="Correo" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
@@ -79,7 +114,7 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_kSneUMyzEeS8k_f0aM8z0Q" name="tipo_Rol" visibility="private" type="_79gQ0FTGEeST3_OQcXnYyQ"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_IzvHYM5gEeSn1M-rWoKTxg" name="crear_rol">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IzvHYM5gEeSn1M-rWoKTxg" name="set_nombre_rol">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_sE0PYM5gEeSn1M-rWoKTxg" name="nombre_rol">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
@@ -95,6 +130,16 @@ En la ERS se había definido que toda acción estaría registrada en el historia
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RC2qoM5wEeSp_qLPgWRl-Q" name="get_Rol">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RC2qoc5wEeSp_qLPgWRl-Q" name="Nombre" direction="out">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RC2qos5wEeSp_qLPgWRl-Q" name="Descripcion" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bsVx0M5wEeSp_qLPgWRl-Q" name="Lista_Permisos" type="_XbzWgFE5EeSLed2XihD4SA" direction="out" effect="read"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_RC2qo85wEeSp_qLPgWRl-Q" name="Tipo_Rol" type="_79gQ0FTGEeST3_OQcXnYyQ" direction="out" effect="read"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_XbzWgFE5EeSLed2XihD4SA" name="Permiso">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gftxkFE6EeSLed2XihD4SA" name="Permiso_Id" visibility="private">
@@ -103,6 +148,9 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     <ownedAttribute xmi:type="uml:Property" xmi:id="_jQboMFTIEeST3_OQcXnYyQ" name="Nombre" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rRW-4M5wEeSp_qLPgWRl-Q" name="get_Permiso">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yI43YM5wEeSp_qLPgWRl-Q" name="Nombre" type="_XbzWgFE5EeSLed2XihD4SA" direction="out" effect="read"/>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_dAtJgFE5EeSLed2XihD4SA" name="Proyecto">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gu9HcFE6EeSLed2XihD4SA" name="Proyecto_Id" visibility="private">
@@ -229,10 +277,6 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_z_0AgFTREeST3_OQcXnYyQ" name="Usuario" visibility="private" type="_Vd-X4FE5EeSLed2XihD4SA"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9WxI0FTREeST3_OQcXnYyQ" name="Casilla_de_Mensaje" visibility="private">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BdfGkFTSEeST3_OQcXnYyQ"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BdftoFTSEeST3_OQcXnYyQ" value="*"/>
-    </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ERk-0FTSEeST3_OQcXnYyQ" name="Acumulador_Horas" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
@@ -241,6 +285,61 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_B5IeAc5mEeSn1M-rWoKTxg" name="creado_HU" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YTP5oM5xEeSp_qLPgWRl-Q" name="Descripcion">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dawmAM5xEeSp_qLPgWRl-Q" name="duración">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hUQnIM5xEeSp_qLPgWRl-Q" name="Cambiar_Estado">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_nvGjoM5xEeSp_qLPgWRl-Q" name="HU" type="_lnYEYFE5EeSLed2XihD4SA" effect="update"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_poa1sM5xEeSp_qLPgWRl-Q" name="get_HU">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vIGKcM5xEeSp_qLPgWRl-Q" name="descripcion" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_1gzY8M5xEeSp_qLPgWRl-Q" name="valor_Negocio" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5BWukM5xEeSp_qLPgWRl-Q" name="valor_Tecnico" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_9MvJ4M5xEeSp_qLPgWRl-Q" name="Prioridad" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ATZ_4M5yEeSp_qLPgWRl-Q" name="Duracion" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_K8zAcM5yEeSp_qLPgWRl-Q" name="Horas_Trabajadas" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_FHVo8M5yEeSp_qLPgWRl-Q" name="Estado" type="_WvbM0My4EeS8k_f0aM8z0Q" direction="out" effect="read"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PK1uMM5yEeSp_qLPgWRl-Q" name="set_HU">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PK1uMc5yEeSp_qLPgWRl-Q" name="Descripción" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qfNeUM5yEeSp_qLPgWRl-Q" name="Valor_Negocio" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_mkpGMM5yEeSp_qLPgWRl-Q" name="Valor_Tecnico" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PK1uMs5yEeSp_qLPgWRl-Q" name="Prioridad" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EIntegerObject"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_a3Er0M5yEeSp_qLPgWRl-Q" name="Acumulador_Horas">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_trRKoM5yEeSp_qLPgWRl-Q" name="agregar_Horas_Trabajadas">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_yyOdYM5yEeSp_qLPgWRl-Q" name="horas" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zSwXkM5yEeSp_qLPgWRl-Q" name="agregar_Archivos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4eNIwM5yEeSp_qLPgWRl-Q" name="Archivo" type="_nWAJYFE5EeSLed2XihD4SA"/>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_nWAJYFE5EeSLed2XihD4SA" name="Adjunto">
@@ -256,6 +355,22 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     <ownedAttribute xmi:type="uml:Property" xmi:id="_7VpBIMzLEeS8k_f0aM8z0Q" name="Hash_versión_actual">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HNgOwM5zEeSp_qLPgWRl-Q" name="get_Archivo">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HNgOwc5zEeSp_qLPgWRl-Q" name="Nombre_Archivo" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HNgOws5zEeSp_qLPgWRl-Q" name="Ruta" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_R3578M5zEeSp_qLPgWRl-Q" name="set_Archivo">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_R3578c5zEeSp_qLPgWRl-Q" name="Nombre" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_R3578s5zEeSp_qLPgWRl-Q" name="Ruta" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_o1TY8FE5EeSLed2XihD4SA" name="Historial">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ufoYoFTVEeST3_OQcXnYyQ" name="Fecha_de_Evento" visibility="private">
@@ -454,6 +569,28 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_yxDlQM5dEeSeXJaYBLqIog" name="Observacion" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8mnagM5wEeSp_qLPgWRl-Q" name="get_Perfil">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8mnags5wEeSp_qLPgWRl-Q" name="Direccion" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8mnag85wEeSp_qLPgWRl-Q" name="Observación" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8mnahM5wEeSp_qLPgWRl-Q" name="Teléfono" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_-RoK0M5wEeSp_qLPgWRl-Q" name="set_Perfil">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-RoK0s5wEeSp_qLPgWRl-Q" name="Dirección" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-RoK085wEeSp_qLPgWRl-Q" name="Observación" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-RoK1M5wEeSp_qLPgWRl-Q" name="Teléfono" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_2zgHAM5dEeSeXJaYBLqIog" name="pseudo_extiende" memberEnd="_2zgHAc5dEeSeXJaYBLqIog _2zccoM5dEeSeXJaYBLqIog">
     <ownedEnd xmi:type="uml:Property" xmi:id="_2zgHAc5dEeSeXJaYBLqIog" name="perfil" type="_oIymEM5dEeSeXJaYBLqIog" association="_2zgHAM5dEeSeXJaYBLqIog">
