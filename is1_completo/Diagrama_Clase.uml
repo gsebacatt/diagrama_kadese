@@ -60,6 +60,22 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_kSneUMyzEeS8k_f0aM8z0Q" name="tipo_Rol" visibility="private" type="_79gQ0FTGEeST3_OQcXnYyQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IzvHYM5gEeSn1M-rWoKTxg" name="crear_rol">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_sE0PYM5gEeSn1M-rWoKTxg" name="nombre_rol">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yA6aYM5gEeSn1M-rWoKTxg" name="Agregar_permisos">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HVo8QM5hEeSn1M-rWoKTxg" name="Lista_permisos" type="_XbzWgFE5EeSLed2XihD4SA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Jglw4M5hEeSn1M-rWoKTxg" name="seleccionar_tipo">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_V0gZkM5hEeSn1M-rWoKTxg" name="tipo_rol" type="_79gQ0FTGEeST3_OQcXnYyQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iFEzUM5hEeSn1M-rWoKTxg" name="Eliminar_rol">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_rubTMM5hEeSn1M-rWoKTxg" name="Eliminado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_XbzWgFE5EeSLed2XihD4SA" name="Permiso">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gftxkFE6EeSLed2XihD4SA" name="Permiso_Id" visibility="private">
