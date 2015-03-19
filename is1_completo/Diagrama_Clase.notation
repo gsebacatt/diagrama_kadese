@@ -207,6 +207,10 @@
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R88A8FTlEeSnerH4ncmc2A" source="PapyrusCSSForceValue">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R88oAFTlEeSnerH4ncmc2A" key="collapsed" value="true"/>
         </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_JbLTIM5mEeSn1M-rWoKTxg" type="3013">
+          <element xmi:type="uml:Operation" href="Diagrama_Clase.uml#_JbJd8M5mEeSn1M-rWoKTxg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_JbLTIc5mEeSn1M-rWoKTxg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_dAtwmVE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_dAtwmlE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_dAtwm1E5EeSLed2XihD4SA"/>
@@ -430,6 +434,10 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lnZShVE5EeSLed2XihD4SA"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_lnZShlE5EeSLed2XihD4SA" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_B5KTMM5mEeSn1M-rWoKTxg" type="3013">
+          <element xmi:type="uml:Operation" href="Diagrama_Clase.uml#_B5IeAM5mEeSn1M-rWoKTxg"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_B5KTMc5mEeSn1M-rWoKTxg"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_lnZSh1E5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_lnZSiFE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_lnZSiVE5EeSLed2XihD4SA"/>
