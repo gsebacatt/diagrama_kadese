@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oxatEGX2EeSAcaOgheyIXg" name="model">
+  <packagedElement xmi:type="uml:Model" xmi:id="_3MfSsWX6EeS6-9hFJTxEsg" name="Model"/>
+  <packagedElement xmi:type="uml:Model" href="../asignarRolSec/model.uml#__myooGRREeSrZPw9x9ftZw"/>
+</uml:Model>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WoifgMypEeS8k_f0aM8z0Q" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_WoifgcypEeS8k_f0aM8z0Q">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jrBeYMypEeS8k_f0aM8z0Q" name="Usuario">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6rQf0MypEeS8k_f0aM8z0Q" name="Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hyB1EMysEeS8k_f0aM8z0Q" name="class1">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hyDqQMysEeS8k_f0aM8z0Q" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hyDqQcysEeS8k_f0aM8z0Q" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>

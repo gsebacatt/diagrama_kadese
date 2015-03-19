@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WcbgwFknEeSudZA9SR8_gw" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_WdNj4FknEeSudZA9SR8_gw" name="Adjuntar Archivos en HU" node="_8loFYFknEeSudZA9SR8_gw _q3j2QFkpEeSudZA9SR8_gw _ycRk4FkpEeSudZA9SR8_gw _40cA0FkpEeSudZA9SR8_gw _G-azQFkqEeSudZA9SR8_gw _NQX5gFkqEeSudZA9SR8_gw _cUAQwFkqEeSudZA9SR8_gw _hEXBYFkqEeSudZA9SR8_gw _OoMLkFkrEeSudZA9SR8_gw _e_LoIFkrEeSudZA9SR8_gw _fqzYAFkrEeSudZA9SR8_gw _PSAvMFksEeSudZA9SR8_gw" group="_hqQrIFknEeSudZA9SR8_gw _VDHnoFkrEeSudZA9SR8_gw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_R-DJkFkqEeSudZA9SR8_gw" target="_ycRk4FkpEeSudZA9SR8_gw" source="_q3j2QFkpEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_S9HZ4FkqEeSudZA9SR8_gw" target="_40cA0FkpEeSudZA9SR8_gw" source="_ycRk4FkpEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UCIhMFkqEeSudZA9SR8_gw" target="_G-azQFkqEeSudZA9SR8_gw" source="_40cA0FkpEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U1JSgFkqEeSudZA9SR8_gw" target="_NQX5gFkqEeSudZA9SR8_gw" source="_G-azQFkqEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WxCXcFkqEeSudZA9SR8_gw" target="_q3j2QFkpEeSudZA9SR8_gw" source="_8loFYFknEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oNUoIFkqEeSudZA9SR8_gw" target="_hEXBYFkqEeSudZA9SR8_gw" source="_cUAQwFkqEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_RwCtUFkrEeSudZA9SR8_gw" target="_OoMLkFkrEeSudZA9SR8_gw" source="_NQX5gFkqEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SYBTUFkrEeSudZA9SR8_gw" target="_cUAQwFkqEeSudZA9SR8_gw" source="_OoMLkFkrEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JOzPkFksEeSudZA9SR8_gw" name="Si es la primera versión" target="_fqzYAFkrEeSudZA9SR8_gw" source="_hEXBYFkqEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SPM5EFksEeSudZA9SR8_gw" name="Si no es la primera agregación del archivo" target="_PSAvMFksEeSudZA9SR8_gw" source="_hEXBYFkqEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gDH78FksEeSudZA9SR8_gw" target="_e_LoIFkrEeSudZA9SR8_gw" source="_PSAvMFksEeSudZA9SR8_gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hjSuMFksEeSudZA9SR8_gw" target="_e_LoIFkrEeSudZA9SR8_gw" source="_fqzYAFkrEeSudZA9SR8_gw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_hqQrIFknEeSudZA9SR8_gw" name="Usuario_asignado_a_HU(Admistrador, Líder de Proyecto, Equipo)" node="_8loFYFknEeSudZA9SR8_gw _q3j2QFkpEeSudZA9SR8_gw _ycRk4FkpEeSudZA9SR8_gw _40cA0FkpEeSudZA9SR8_gw _G-azQFkqEeSudZA9SR8_gw _NQX5gFkqEeSudZA9SR8_gw _cUAQwFkqEeSudZA9SR8_gw _hEXBYFkqEeSudZA9SR8_gw _OoMLkFkrEeSudZA9SR8_gw"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_VDHnoFkrEeSudZA9SR8_gw" name="Sistema Versionador" node="_e_LoIFkrEeSudZA9SR8_gw _fqzYAFkrEeSudZA9SR8_gw _PSAvMFksEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_8loFYFknEeSudZA9SR8_gw" name="InitialNode1" outgoing="_WxCXcFkqEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_q3j2QFkpEeSudZA9SR8_gw" name="Presionar sobre la solapa &quot;Proyectos&quot;" incoming="_WxCXcFkqEeSudZA9SR8_gw" outgoing="_R-DJkFkqEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_ycRk4FkpEeSudZA9SR8_gw" name="Presionar “Indicar Proyecto”" incoming="_R-DJkFkqEeSudZA9SR8_gw" outgoing="_S9HZ4FkqEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_40cA0FkpEeSudZA9SR8_gw" name="Seleccionar el proyecto" incoming="_S9HZ4FkqEeSudZA9SR8_gw" outgoing="_UCIhMFkqEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_G-azQFkqEeSudZA9SR8_gw" name="Presionar la solapa &quot;HU&quot;" incoming="_UCIhMFkqEeSudZA9SR8_gw" outgoing="_U1JSgFkqEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_NQX5gFkqEeSudZA9SR8_gw" name="Presionar “Agregar Archivos Adjuntos”" incoming="_U1JSgFkqEeSudZA9SR8_gw" outgoing="_RwCtUFkrEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_cUAQwFkqEeSudZA9SR8_gw" name="Agregar_Archivo" incoming="_SYBTUFkrEeSudZA9SR8_gw" outgoing="_oNUoIFkqEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_hEXBYFkqEeSudZA9SR8_gw" name="Presionar Guardar Cambios&quot;" incoming="_oNUoIFkqEeSudZA9SR8_gw" outgoing="_JOzPkFksEeSudZA9SR8_gw _SPM5EFksEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_OoMLkFkrEeSudZA9SR8_gw" name="Seleccionar la HU" incoming="_RwCtUFkrEeSudZA9SR8_gw" outgoing="_SYBTUFkrEeSudZA9SR8_gw" inPartition="_hqQrIFknEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_e_LoIFkrEeSudZA9SR8_gw" name="ActivityFinalNode1" incoming="_gDH78FksEeSudZA9SR8_gw _hjSuMFksEeSudZA9SR8_gw" inPartition="_VDHnoFkrEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_fqzYAFkrEeSudZA9SR8_gw" name="Commit" incoming="_JOzPkFksEeSudZA9SR8_gw" outgoing="_hjSuMFksEeSudZA9SR8_gw" inPartition="_VDHnoFkrEeSudZA9SR8_gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_PSAvMFksEeSudZA9SR8_gw" name="Update" incoming="_SPM5EFksEeSudZA9SR8_gw" outgoing="_gDH78FksEeSudZA9SR8_gw" inPartition="_VDHnoFkrEeSudZA9SR8_gw"/>
+  </packagedElement>
+</uml:Model>

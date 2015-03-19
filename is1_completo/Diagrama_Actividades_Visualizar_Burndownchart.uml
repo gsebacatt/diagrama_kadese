@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_b7pxMFnlEeSNhMhXiQz4gw" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_cHktUFnlEeSNhMhXiQz4gw" name="Visualizar Burndownchart de un Sprint" node="_2pDA4FnlEeSNhMhXiQz4gw _7hNpsFnlEeSNhMhXiQz4gw _B7m6QFnmEeSNhMhXiQz4gw _ESRPoFnmEeSNhMhXiQz4gw _HPX58FnmEeSNhMhXiQz4gw _f0HbEFnmEeSNhMhXiQz4gw _ovv5UFnmEeSNhMhXiQz4gw _tFE60FnmEeSNhMhXiQz4gw _vvjkEFnmEeSNhMhXiQz4gw _1mcvoGRSEeSHoYPX5Ovr4g _Ce8sEGRTEeSHoYPX5Ovr4g _2YYtcGRTEeSHoYPX5Ovr4g _G4nlkGRUEeSHoYPX5Ovr4g _LOI0UGRUEeSHoYPX5Ovr4g" group="_wDebEFnlEeSNhMhXiQz4gw _rPgxAGRSEeSHoYPX5Ovr4g">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xBg7MFnmEeSNhMhXiQz4gw" target="_7hNpsFnlEeSNhMhXiQz4gw" source="_2pDA4FnlEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xtU4UFnmEeSNhMhXiQz4gw" target="_B7m6QFnmEeSNhMhXiQz4gw" source="_7hNpsFnlEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yW5ZwFnmEeSNhMhXiQz4gw" target="_ESRPoFnmEeSNhMhXiQz4gw" source="_B7m6QFnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zf63UFnmEeSNhMhXiQz4gw" target="_HPX58FnmEeSNhMhXiQz4gw" source="_ESRPoFnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_z_z4UFnmEeSNhMhXiQz4gw" target="_f0HbEFnmEeSNhMhXiQz4gw" source="_HPX58FnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0lgmYFnmEeSNhMhXiQz4gw" target="_ovv5UFnmEeSNhMhXiQz4gw" source="_f0HbEFnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_2H3J8FnmEeSNhMhXiQz4gw" target="_vvjkEFnmEeSNhMhXiQz4gw" source="_tFE60FnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Nq_twGRTEeSHoYPX5Ovr4g" target="_1mcvoGRSEeSHoYPX5Ovr4g" source="_ovv5UFnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OnZroGRTEeSHoYPX5Ovr4g" target="_Ce8sEGRTEeSHoYPX5Ovr4g" source="_1mcvoGRSEeSHoYPX5Ovr4g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_81FrIGRTEeSHoYPX5Ovr4g" target="_2YYtcGRTEeSHoYPX5Ovr4g" source="_Ce8sEGRTEeSHoYPX5Ovr4g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JotuoGRUEeSHoYPX5Ovr4g" target="_G4nlkGRUEeSHoYPX5Ovr4g" source="_2YYtcGRTEeSHoYPX5Ovr4g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NP9iIGRUEeSHoYPX5Ovr4g" target="_LOI0UGRUEeSHoYPX5Ovr4g" source="_ovv5UFnmEeSNhMhXiQz4gw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NyDikGRUEeSHoYPX5Ovr4g" target="_tFE60FnmEeSNhMhXiQz4gw" source="_LOI0UGRUEeSHoYPX5Ovr4g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_O5UsoGRUEeSHoYPX5Ovr4g" target="_LOI0UGRUEeSHoYPX5Ovr4g" source="_G4nlkGRUEeSHoYPX5Ovr4g"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_wDebEFnlEeSNhMhXiQz4gw" name="Usuario_asignado_a_HU(Admistrador, Líder de Proyecto, Equipo)" node="_2pDA4FnlEeSNhMhXiQz4gw _7hNpsFnlEeSNhMhXiQz4gw _B7m6QFnmEeSNhMhXiQz4gw _ESRPoFnmEeSNhMhXiQz4gw _HPX58FnmEeSNhMhXiQz4gw _f0HbEFnmEeSNhMhXiQz4gw _ovv5UFnmEeSNhMhXiQz4gw _tFE60FnmEeSNhMhXiQz4gw _vvjkEFnmEeSNhMhXiQz4gw _LOI0UGRUEeSHoYPX5Ovr4g"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_rPgxAGRSEeSHoYPX5Ovr4g" name="Sistema" node="_1mcvoGRSEeSHoYPX5Ovr4g _Ce8sEGRTEeSHoYPX5Ovr4g _2YYtcGRTEeSHoYPX5Ovr4g _G4nlkGRUEeSHoYPX5Ovr4g"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_2pDA4FnlEeSNhMhXiQz4gw" name="InitialNode1" outgoing="_xBg7MFnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_7hNpsFnlEeSNhMhXiQz4gw" name="Presionar sobre solapa &quot;Proyecto&quot;" incoming="_xBg7MFnmEeSNhMhXiQz4gw" outgoing="_xtU4UFnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_B7m6QFnmEeSNhMhXiQz4gw" name="Presionar &quot;Indicar Proyecto&quot;" incoming="_xtU4UFnmEeSNhMhXiQz4gw" outgoing="_yW5ZwFnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_ESRPoFnmEeSNhMhXiQz4gw" name="Indicar el Proyecto" incoming="_yW5ZwFnmEeSNhMhXiQz4gw" outgoing="_zf63UFnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_HPX58FnmEeSNhMhXiQz4gw" name="Presionar la solapa Sprint" incoming="_zf63UFnmEeSNhMhXiQz4gw" outgoing="_z_z4UFnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_f0HbEFnmEeSNhMhXiQz4gw" name="Seleccionar opción &quot;Visualizar Burndown Chart&quot;" incoming="_z_z4UFnmEeSNhMhXiQz4gw" outgoing="_0lgmYFnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_ovv5UFnmEeSNhMhXiQz4gw" name="Selecciona el Sprint a visualizar" incoming="_0lgmYFnmEeSNhMhXiQz4gw" outgoing="_Nq_twGRTEeSHoYPX5Ovr4g _NP9iIGRUEeSHoYPX5Ovr4g" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_tFE60FnmEeSNhMhXiQz4gw" name="Cierra el grafico" incoming="_NyDikGRUEeSHoYPX5Ovr4g" outgoing="_2H3J8FnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_vvjkEFnmEeSNhMhXiQz4gw" name="ActivityFinalNode1" incoming="_2H3J8FnmEeSNhMhXiQz4gw" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_1mcvoGRSEeSHoYPX5Ovr4g" name="Eje y: Extraer la duración total fijada de cada HU del Sprint" incoming="_Nq_twGRTEeSHoYPX5Ovr4g" outgoing="_OnZroGRTEeSHoYPX5Ovr4g" inPartition="_rPgxAGRSEeSHoYPX5Ovr4g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_Ce8sEGRTEeSHoYPX5Ovr4g" name="Eje x: Extraer las horas de HU en proceso o finalizadas" incoming="_OnZroGRTEeSHoYPX5Ovr4g" outgoing="_81FrIGRTEeSHoYPX5Ovr4g" inPartition="_rPgxAGRSEeSHoYPX5Ovr4g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_2YYtcGRTEeSHoYPX5Ovr4g" name="Estimar la terminación de las HU no finalizadas" incoming="_81FrIGRTEeSHoYPX5Ovr4g" outgoing="_JotuoGRUEeSHoYPX5Ovr4g" inPartition="_rPgxAGRSEeSHoYPX5Ovr4g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_G4nlkGRUEeSHoYPX5Ovr4g" name="Generar gráfico" incoming="_JotuoGRUEeSHoYPX5Ovr4g" outgoing="_O5UsoGRUEeSHoYPX5Ovr4g" inPartition="_rPgxAGRSEeSHoYPX5Ovr4g"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_LOI0UGRUEeSHoYPX5Ovr4g" name="Ver gráfico" incoming="_NP9iIGRUEeSHoYPX5Ovr4g _O5UsoGRUEeSHoYPX5Ovr4g" outgoing="_NyDikGRUEeSHoYPX5Ovr4g" inPartition="_wDebEFnlEeSNhMhXiQz4gw"/>
+  </packagedElement>
+</uml:Model>

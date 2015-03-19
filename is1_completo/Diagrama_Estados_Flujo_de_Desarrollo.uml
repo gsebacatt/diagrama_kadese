@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
+  <uml:Model xmi:id="_td7pUFa9EeS2remK5QSTIg" name="model">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_td7pUVa9EeS2remK5QSTIg" name="Flujo de desarrollo de HU">
+      <region xmi:type="uml:Region" xmi:id="_td7pUla9EeS2remK5QSTIg" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_YjcW8Fa-EeS2remK5QSTIg" name="iniciarProcesoDeHU(HU)" source="_HsirQFa-EeS2remK5QSTIg" target="_0UhGoFa9EeS2remK5QSTIg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_9EDHwFkcEeSudZA9SR8_gw" name="Analizar(HU_Def)" source="_0UhGoFa9EeS2remK5QSTIg" target="_1wJ-MFa9EeS2remK5QSTIg"/>
+        <transition xmi:type="uml:Transition" xmi:id="_e6ncwFkhEeSudZA9SR8_gw" name="Desarrollar_HU_asignado_agrupado(HU, Usuario)" source="_1wJ-MFa9EeS2remK5QSTIg" target="_nPVJIFkaEeSudZA9SR8_gw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_D24M0FklEeSudZA9SR8_gw" name="comprobar_Desarrollo_de_HU()" source="_nPVJIFkaEeSudZA9SR8_gw" target="_mnlIcFkhEeSudZA9SR8_gw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_t2__sFklEeSudZA9SR8_gw" name="HU_Finalizado_Validado()" source="_typoAFkhEeSudZA9SR8_gw" target="_IRn2oFkhEeSudZA9SR8_gw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_lYap0FklEeSudZA9SR8_gw" name="desarrollar_de_nuevo_HU()" source="_Vp6woFklEeSudZA9SR8_gw" target="_nPVJIFkaEeSudZA9SR8_gw"/>
+        <subvertex xmi:type="uml:State" xmi:id="_0UhGoFa9EeS2remK5QSTIg" name="Relevando">
+          <region xmi:type="uml:Region" xmi:id="_57puQla9EeS2remK5QSTIg" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_gQx2EFa-EeS2remK5QSTIg" name="CambiarEstado(Estado Inicial, Estado Def)" source="_Mi4vIFa-EeS2remK5QSTIg" target="_57zfRla9EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_uvfiYFa-EeS2remK5QSTIg" name="Verificar_definición_con_Cliente( Estado Def, Estado Hecho)" source="_57zfRla9EeS2remK5QSTIg" target="_AHF80Fa-EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_wYYLwFa-EeS2remK5QSTIg" name="CambiarEstado( Estado En_Proc, Estado Hecho)" source="_AHF80Fa-EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_KQq_cFa_EeS2remK5QSTIg" target="_5XrpEFa-EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_SO4FcGRPEeSHoYPX5Ovr4g" source="_AHF80Fa-EeS2remK5QSTIg" target="_5XrpEFa-EeS2remK5QSTIg"/>
+            <subvertex xmi:type="uml:State" xmi:id="_57zfRla9EeS2remK5QSTIg" name="Definido"/>
+            <subvertex xmi:type="uml:State" xmi:id="_AHF80Fa-EeS2remK5QSTIg" name="Hecho"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_Mi4vIFa-EeS2remK5QSTIg" name=""/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_5XrpEFa-EeS2remK5QSTIg"/>
+          </region>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_1wJ-MFa9EeS2remK5QSTIg" name="Analizando">
+          <region xmi:type="uml:Region" xmi:id="_OMZOIla_EeS2remK5QSTIg" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_PTFOkFkeEeSudZA9SR8_gw" name="Definir_en_HU(Prioridad p, Valor_Negocio VN, Valor_Cliente VC, Duracion D)" source="_OMZOKVa_EeS2remK5QSTIg" target="_UR4lsFa_EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_qiyhIFkeEeSudZA9SR8_gw" name="Agrupar_HU_con_Sprint()" source="_UR4lsFa_EeS2remK5QSTIg" target="_WYE2IFa_EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_5UWmEFkgEeSudZA9SR8_gw" name="Asignar_HU_a_Usuario()" source="_WYE2IFa_EeS2remK5QSTIg" target="_Y2hOgFa_EeS2remK5QSTIg"/>
+            <transition xmi:type="uml:Transition" xmi:id="_BY3PEFkhEeSudZA9SR8_gw" source="_Y2hOgFa_EeS2remK5QSTIg" target="_dBuDoFa_EeS2remK5QSTIg"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_OMZOKVa_EeS2remK5QSTIg"/>
+            <subvertex xmi:type="uml:State" xmi:id="_WYE2IFa_EeS2remK5QSTIg" name="Agrupado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_UR4lsFa_EeS2remK5QSTIg" name="Definido"/>
+            <subvertex xmi:type="uml:State" xmi:id="_Y2hOgFa_EeS2remK5QSTIg" name="Asignado"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_dBuDoFa_EeS2remK5QSTIg"/>
+          </region>
+        </subvertex>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_HsirQFa-EeS2remK5QSTIg" name="Inicial"/>
+        <subvertex xmi:type="uml:State" xmi:id="_nPVJIFkaEeSudZA9SR8_gw" name="Desarrollando">
+          <region xmi:type="uml:Region" xmi:id="_i9gDYFkhEeSudZA9SR8_gw" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_mUq-EFkiEeSudZA9SR8_gw" source="_i9pNUFkhEeSudZA9SR8_gw" target="_DLGzUFkiEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_m8oV8FkiEeSudZA9SR8_gw" name="termina_a_tiempo()" source="_DLGzUFkiEeSudZA9SR8_gw" target="_PCyL8FkiEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_nkjRkFkiEeSudZA9SR8_gw" name="no_termina_Duracion()" source="_DLGzUFkiEeSudZA9SR8_gw" target="_gPHVEFkiEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_xIyn8FkiEeSudZA9SR8_gw" name="Se_modifica_Duración()" source="_gPHVEFkiEeSudZA9SR8_gw" target="_DLGzUFkiEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_Mh3R4FkjEeSudZA9SR8_gw" source="_PCyL8FkiEeSudZA9SR8_gw" target="_kjAooFkhEeSudZA9SR8_gw"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_i9pNUFkhEeSudZA9SR8_gw"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_kjAooFkhEeSudZA9SR8_gw" name=""/>
+            <subvertex xmi:type="uml:State" xmi:id="_DLGzUFkiEeSudZA9SR8_gw" name="En_Proceso_Desarrollo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_PCyL8FkiEeSudZA9SR8_gw" name="HU_Finalizado_a_Tiempo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_gPHVEFkiEeSudZA9SR8_gw" name="HU_No_Finalizado_a_Tiempo"/>
+          </region>
+        </subvertex>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_IRn2oFkhEeSudZA9SR8_gw" name=""/>
+        <subvertex xmi:type="uml:State" xmi:id="_mnlIcFkhEeSudZA9SR8_gw" name="Probando">
+          <region xmi:type="uml:Region" xmi:id="_rW7zglkhEeSudZA9SR8_gw" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_69hmgFkkEeSudZA9SR8_gw" name="termina_Validación_Correctamente()" source="_nk3IsFkkEeSudZA9SR8_gw" target="_vD8JYFkkEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="__Vly8FkkEeSudZA9SR8_gw" source="_vD8JYFkkEeSudZA9SR8_gw" target="_typoAFkhEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_BKzBEFklEeSudZA9SR8_gw" source="_rXB6IVkhEeSudZA9SR8_gw" target="_nk3IsFkkEeSudZA9SR8_gw"/>
+            <transition xmi:type="uml:Transition" xmi:id="_jRINMFklEeSudZA9SR8_gw" name="termina_Validación_Incorrectamente()" source="_nk3IsFkkEeSudZA9SR8_gw" target="_Vp6woFklEeSudZA9SR8_gw"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_rXB6IVkhEeSudZA9SR8_gw"/>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_typoAFkhEeSudZA9SR8_gw"/>
+            <subvertex xmi:type="uml:State" xmi:id="_nk3IsFkkEeSudZA9SR8_gw" name="En_Proceso_de_Validación"/>
+            <subvertex xmi:type="uml:State" xmi:id="_vD8JYFkkEeSudZA9SR8_gw" name="HU_Finalizado_Correctamente"/>
+            <subvertex xmi:type="uml:State" xmi:id="_Vp6woFklEeSudZA9SR8_gw" name="HU_Finalizado_Incorrectamente"/>
+          </region>
+        </subvertex>
+      </region>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4G3W4Fa9EeS2remK5QSTIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4HKR0Fa9EeS2remK5QSTIg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_4K4UMFa9EeS2remK5QSTIg" language="org.eclipse.papyrus.uml.textedit.state.xtext.UmlState"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_9istcVa9EeS2remK5QSTIg" language="org.eclipse.papyrus.uml.textedit.state.xtext.UmlState"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_V4pkoVa-EeS2remK5QSTIg" language="org.eclipse.papyrus.uml.textedit.transition.xtext.UmlTransition"/>
+</xmi:XMI>
