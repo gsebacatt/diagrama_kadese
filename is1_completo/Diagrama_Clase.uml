@@ -44,6 +44,25 @@ En la ERS se había definido que toda acción estaría registrada en el historia
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_D99gsM5fEeSeXJaYBLqIog" name="crear_user">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZZRLsM5fEeSeXJaYBLqIog" name="nombre">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_cQ0noM5fEeSeXJaYBLqIog" name="contraseña">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uRfXwM5fEeSeXJaYBLqIog" name="usuario_creado" type="_Vd-X4FE5EeSLed2XihD4SA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9R7REM5fEeSeXJaYBLqIog" name="activar">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_CAIsoM5gEeSeXJaYBLqIog" name="activado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9qe7AM5fEeSeXJaYBLqIog" name="desactivar">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_F8-VoM5gEeSeXJaYBLqIog" name="desactivado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_W4As8FE5EeSLed2XihD4SA" name="Rol">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gYRFwFE6EeSLed2XihD4SA" name="Rol_Id" visibility="private">

@@ -37,10 +37,22 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_Vd_mBlE5EeSLed2XihD4SA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vd_mB1E5EeSLed2XihD4SA"/>
       </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_VeANEFE5EeSLed2XihD4SA" type="7018" collapsed="true">
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VeANEFE5EeSLed2XihD4SA" type="7018">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jXGrYFTdEeST3_OQcXnYyQ" source="PapyrusCSSForceValue">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jXHScFTdEeST3_OQcXnYyQ" key="collapsed" value="true"/>
         </eAnnotations>
+        <children xmi:type="notation:Shape" xmi:id="_D-DAQM5fEeSeXJaYBLqIog" type="3013">
+          <element xmi:type="uml:Operation" href="Diagrama_Clase.uml#_D99gsM5fEeSeXJaYBLqIog"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_D-DAQc5fEeSeXJaYBLqIog"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9R_igM5fEeSeXJaYBLqIog" type="3013">
+          <element xmi:type="uml:Operation" href="Diagrama_Clase.uml#_9R7REM5fEeSeXJaYBLqIog"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9R_igc5fEeSeXJaYBLqIog"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9qjMcM5fEeSeXJaYBLqIog" type="3013">
+          <element xmi:type="uml:Operation" href="Diagrama_Clase.uml#_9qe7AM5fEeSeXJaYBLqIog"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9qjMcc5fEeSeXJaYBLqIog"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_VeANEVE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_VeANElE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_VeANE1E5EeSLed2XihD4SA"/>
@@ -56,7 +68,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VeANGVE5EeSLed2XihD4SA"/>
       </children>
       <element xmi:type="uml:Class" href="Diagrama_Clase.uml#_Vd-X4FE5EeSLed2XihD4SA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vd_mAVE5EeSLed2XihD4SA" x="38" y="-102" width="235" height="247"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vd_mAVE5EeSLed2XihD4SA" x="-19" y="-102" width="248" height="247"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_W4BUAFE5EeSLed2XihD4SA" type="2008">
       <children xmi:type="notation:DecorationNode" xmi:id="_W4BUAlE5EeSLed2XihD4SA" type="5029"/>
