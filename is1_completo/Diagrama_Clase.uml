@@ -391,7 +391,6 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zSwXkM5yEeSp_qLPgWRl-Q" name="agregar_Archivos">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_4eNIwM5yEeSp_qLPgWRl-Q" name="Archivo" type="_nWAJYFE5EeSLed2XihD4SA"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_K1W80M9QEeSdUPpR30BefQ" name="Operation1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_nWAJYFE5EeSLed2XihD4SA" name="Adjunto">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_7e0QEFTOEeST3_OQcXnYyQ" name="Adjunto_Id" visibility="private">
