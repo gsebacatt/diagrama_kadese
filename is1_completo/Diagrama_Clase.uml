@@ -228,6 +228,19 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OfhosM5kEeSn1M-rWoKTxg" name="Crear_Sprint">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ofhosc5kEeSn1M-rWoKTxg" name="creado_sprint" type="_eD6S8FE5EeSLed2XihD4SA" direction="return"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nr11YM9PEeSdUPpR30BefQ" name="Cambio_Estado">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uLojUM9PEeSdUPpR30BefQ" name="Estado_cambiado" type="_UFq3wFTUEeST3_OQcXnYyQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PVT58M9QEeSdUPpR30BefQ" name="set_Sprint">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PVT58c9QEeSdUPpR30BefQ" name="Descripción" effect="update">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PVVvIM9QEeSdUPpR30BefQ" name="get_Sprint">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PVVvIc9QEeSdUPpR30BefQ" name="descripcion" direction="out" effect="read">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fXXe4FE5EeSLed2XihD4SA" name="Flujo">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hQ4v0FE6EeSLed2XihD4SA" name="Flujo_Id" visibility="private">
@@ -284,6 +297,11 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_F552sM5kEeSn1M-rWoKTxg" name="Crear_actividad">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_F552sc5kEeSn1M-rWoKTxg" name="actividad_creada" type="_gWVBgFE5EeSLed2XihD4SA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IXVQoM9PEeSdUPpR30BefQ" name="Cambio_Estado">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bmyIEM9PEeSdUPpR30BefQ" name="Estado_Cambiado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lnYEYFE5EeSLed2XihD4SA" name="HU">
@@ -373,6 +391,7 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zSwXkM5yEeSp_qLPgWRl-Q" name="agregar_Archivos">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_4eNIwM5yEeSp_qLPgWRl-Q" name="Archivo" type="_nWAJYFE5EeSLed2XihD4SA"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_K1W80M9QEeSdUPpR30BefQ" name="Operation1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_nWAJYFE5EeSLed2XihD4SA" name="Adjunto">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_7e0QEFTOEeST3_OQcXnYyQ" name="Adjunto_Id" visibility="private">
