@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-m3dQFE4EeSLed2XihD4SA" name="Model">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-m3dQFE4EeSLed2XihD4SA" name="Model">
   <ownedComment xmi:type="uml:Comment" xmi:id="_1GxZkFfnEeSWptgM3Df_JA" annotatedElement="_o1TY8FE5EeSLed2XihD4SA">
     <ownedComment xmi:type="uml:Comment" xmi:id="_kgHeEM9AEeSfa-zkojT8ag" annotatedElement="_1GxZkFfnEeSWptgM3Df_JA">
       <body>El historial se relaciona solo con Proyecto y a traves de el accede a los cambios en los
@@ -527,16 +527,6 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_W_z8wMy5EeS8k_f0aM8z0Q" name="En consulta"/>
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_cbe7QMy5EeS8k_f0aM8z0Q" name="Cancelado"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_FxDvwM9AEeSfa-zkojT8ag" name="posee" memberEnd="_FxDvwc9AEeSfa-zkojT8ag _FxB6kM9AEeSfa-zkojT8ag">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_FxDvwc9AEeSfa-zkojT8ag" name="rol" type="_W4As8FE5EeSLed2XihD4SA" association="_FxDvwM9AEeSfa-zkojT8ag">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FxDvws9AEeSfa-zkojT8ag" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FxDvw89AEeSfa-zkojT8ag" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_FxB6kM9AEeSfa-zkojT8ag" name="usuario" type="_Vd-X4FE5EeSLed2XihD4SA" association="_FxDvwM9AEeSfa-zkojT8ag">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FxB6kc9AEeSfa-zkojT8ag" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FxB6ks9AEeSfa-zkojT8ag" value="1"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_PWCF8M9AEeSfa-zkojT8ag" name="have" memberEnd="_PWCF8c9AEeSfa-zkojT8ag _PWA30M9AEeSfa-zkojT8ag">
     <ownedEnd xmi:type="uml:Property" xmi:id="_PWCF8c9AEeSfa-zkojT8ag" name="proyecto" type="_dAtJgFE5EeSLed2XihD4SA" association="_PWCF8M9AEeSfa-zkojT8ag">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PWCF8s9AEeSfa-zkojT8ag" value="1"/>
@@ -547,16 +537,6 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PWA30s9AEeSfa-zkojT8ag" value="*"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_VQPakM9AEeSfa-zkojT8ag" name="agrupa" memberEnd="_VQPakc9AEeSfa-zkojT8ag _VQOzgM9AEeSfa-zkojT8ag">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_VQPakc9AEeSfa-zkojT8ag" name="proyecto" type="_dAtJgFE5EeSLed2XihD4SA" association="_VQPakM9AEeSfa-zkojT8ag">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VQPaks9AEeSfa-zkojT8ag" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VQPak89AEeSfa-zkojT8ag" value="1"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_VQOzgM9AEeSfa-zkojT8ag" name="rol" type="_W4As8FE5EeSLed2XihD4SA" association="_VQPakM9AEeSfa-zkojT8ag">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VQOzgc9AEeSfa-zkojT8ag" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VQOzgs9AEeSfa-zkojT8ag" value="*"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_lx4A4M9AEeSfa-zkojT8ag" name="genera" memberEnd="_lx4A4c9AEeSfa-zkojT8ag _lx2ywM9AEeSfa-zkojT8ag">
     <ownedEnd xmi:type="uml:Property" xmi:id="_lx4A4c9AEeSfa-zkojT8ag" name="historial" type="_o1TY8FE5EeSLed2XihD4SA" association="_lx4A4M9AEeSfa-zkojT8ag">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lx4A4s9AEeSfa-zkojT8ag"/>
@@ -565,6 +545,41 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
     <ownedEnd xmi:type="uml:Property" xmi:id="_lx2ywM9AEeSfa-zkojT8ag" name="proyecto" type="_dAtJgFE5EeSLed2XihD4SA" association="_lx4A4M9AEeSfa-zkojT8ag">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lx2ywc9AEeSfa-zkojT8ag" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lx2yws9AEeSfa-zkojT8ag" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_myuVsM9HEeSfa-zkojT8ag" name="asignacion">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pY_0YM9HEeSfa-zkojT8ag" name="rol" type="_W4As8FE5EeSLed2XihD4SA" association="_pZBCgM9HEeSfa-zkojT8ag">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pY_0Yc9HEeSfa-zkojT8ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pY_0Ys9HEeSfa-zkojT8ag" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qGU0cM9HEeSfa-zkojT8ag" name="usuario" type="_Vd-X4FE5EeSLed2XihD4SA" association="_qGWCkM9HEeSfa-zkojT8ag">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qGU0cc9HEeSfa-zkojT8ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qGU0cs9HEeSfa-zkojT8ag" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_q3OF4M9HEeSfa-zkojT8ag" name="proyecto" type="_dAtJgFE5EeSLed2XihD4SA" association="_q3P7EM9HEeSfa-zkojT8ag">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q3OF4c9HEeSfa-zkojT8ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q3OF4s9HEeSfa-zkojT8ag" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pZBCgM9HEeSfa-zkojT8ag" memberEnd="_pZBCgc9HEeSfa-zkojT8ag _pY_0YM9HEeSfa-zkojT8ag">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pZBCgc9HEeSfa-zkojT8ag" name="asignacion" type="_myuVsM9HEeSfa-zkojT8ag" association="_pZBCgM9HEeSfa-zkojT8ag">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pZBCgs9HEeSfa-zkojT8ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pZBCg89HEeSfa-zkojT8ag" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qGWCkM9HEeSfa-zkojT8ag" memberEnd="_qGWCkc9HEeSfa-zkojT8ag _qGU0cM9HEeSfa-zkojT8ag">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qGWCkc9HEeSfa-zkojT8ag" name="asignacion" type="_myuVsM9HEeSfa-zkojT8ag" association="_qGWCkM9HEeSfa-zkojT8ag">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qGWCks9HEeSfa-zkojT8ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qGWCk89HEeSfa-zkojT8ag" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_q3P7EM9HEeSfa-zkojT8ag" memberEnd="_q3P7Ec9HEeSfa-zkojT8ag _q3OF4M9HEeSfa-zkojT8ag">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_q3P7Ec9HEeSfa-zkojT8ag" name="asignacion" type="_myuVsM9HEeSfa-zkojT8ag" association="_q3P7EM9HEeSfa-zkojT8ag">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q3P7Es9HEeSfa-zkojT8ag" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q3P7E89HEeSfa-zkojT8ag" value="1"/>
     </ownedEnd>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35YNYFE_EeSLed2XihD4SA">
