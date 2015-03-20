@@ -98,6 +98,16 @@ En la ERS se había definido que toda acción estaría registrada en el historia
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zKX6kM8VEeSi6_ZcDSOeSQ" name="RecuperarContraseña">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BIs2oM8WEeSi6_ZcDSOeSQ" name="Recuperado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2EwBAM8VEeSi6_ZcDSOeSQ" name="CambiarContraseña">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JkaesM8WEeSi6_ZcDSOeSQ" name="Cambiado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_W4As8FE5EeSLed2XihD4SA" name="Rol">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gYRFwFE6EeSLed2XihD4SA" name="Rol_Id" visibility="private">
@@ -140,6 +150,11 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_bsVx0M5wEeSp_qLPgWRl-Q" name="Lista_Permisos" type="_XbzWgFE5EeSLed2XihD4SA" direction="out" effect="read"/>
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_RC2qo85wEeSp_qLPgWRl-Q" name="Tipo_Rol" type="_79gQ0FTGEeST3_OQcXnYyQ" direction="out" effect="read"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YPRwoM8WEeSi6_ZcDSOeSQ" name="Modificar_rol">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dUdhwM8WEeSi6_ZcDSOeSQ" name="Modificado" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_XbzWgFE5EeSLed2XihD4SA" name="Permiso">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gftxkFE6EeSLed2XihD4SA" name="Permiso_Id" visibility="private">
@@ -179,7 +194,13 @@ En la ERS se había definido que toda acción estaría registrada en el historia
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NYlMsMzNEeS8k_f0aM8z0Q" value="*"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_JbJd8M5mEeSn1M-rWoKTxg" name="Crear_proyecto">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JbJd8c5mEeSn1M-rWoKTxg" name="proyecto_creado" type="_dAtJgFE5EeSLed2XihD4SA" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JbJd8c5mEeSn1M-rWoKTxg" name="proyecto_creado" type="_dAtJgFE5EeSLed2XihD4SA"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_3N1eEM8XEeSi6_ZcDSOeSQ" name="CambiarEstadoProyecto">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_AQ2WsM8YEeSi6_ZcDSOeSQ" name="Cambiado" type="_iN8JEFTLEeST3_OQcXnYyQ"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_U01YIM8YEeSi6_ZcDSOeSQ" name="Modificar_Proyecto">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_kxSNwM8YEeSi6_ZcDSOeSQ" name="Modificado" type="_dAtJgFE5EeSLed2XihD4SA" direction="return"/>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_eD6S8FE5EeSLed2XihD4SA" name="Sprint">
@@ -226,6 +247,17 @@ En la ERS se había definido que toda acción estaría registrada en el historia
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_slsngM5jEeSn1M-rWoKTxg" name="Crear_flujo">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_9K7UYM5jEeSn1M-rWoKTxg" name="creado_flujo" type="_fXXe4FE5EeSLed2XihD4SA" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_46Z4IM8YEeSi6_ZcDSOeSQ" name="AgregarActividad">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__rXOkM8YEeSi6_ZcDSOeSQ" name="Actividad_agregada" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HGeVQM8ZEeSi6_ZcDSOeSQ" name="Cambio_Estado">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PciBQM8ZEeSi6_ZcDSOeSQ" name="Cambiado" type="_UFq3wFTUEeST3_OQcXnYyQ" direction="return"/>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_a9eU4M8ZEeSi6_ZcDSOeSQ" name="Descripcion">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      </ownedParameter>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_gWVBgFE5EeSLed2XihD4SA" name="Actividad">
