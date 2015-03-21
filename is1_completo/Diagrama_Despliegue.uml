@@ -35,16 +35,16 @@ de renderizado de los respectivos navegadores</body>
 Version: 14.04
 Licencia: GPL</body>
   </ownedComment>
-  <ownedComment xmi:type="uml:Comment" xmi:id="_8fdkIM_lEeSqv4JAHYniSQ">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_8fdkIM_lEeSqv4JAHYniSQ" annotatedElement="_0IfrQGRPEeSrZPw9x9ftZw">
     <body>Server Device:
 CPU: Intel Dual Core o AMD Athlon X2 o superiores
 Memory: 4GB DDR2
-HDD: 10O GB</body>
+HDD: 100 GB</body>
   </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_LP7EcVw6EeSZ_tmJKjaQeA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Node" xmi:id="_GsDbMFw7EeSZ_tmJKjaQeA" name="Browser Firefox x.x">
+  <packagedElement xmi:type="uml:Node" xmi:id="_GsDbMFw7EeSZ_tmJKjaQeA" name="Browser Mozilla Firefox x.x">
     <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_DbfwsGRPEeSrZPw9x9ftZw" name="Gekho engine"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_V7h2EFw7EeSZ_tmJKjaQeA" name="User"/>
@@ -53,12 +53,12 @@ HDD: 10O GB</body>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_0PwpkFw7EeSZ_tmJKjaQeA" client="_bWv-EFw6EeSZ_tmJKjaQeA" supplier="_48GSUFw6EeSZ_tmJKjaQeA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_4R2mAFw7EeSZ_tmJKjaQeA" name="http" client="_GsDbMFw7EeSZ_tmJKjaQeA" supplier="_bWv-EFw6EeSZ_tmJKjaQeA"/>
   <packagedElement xmi:type="uml:Device" xmi:id="_0IfrQGRPEeSrZPw9x9ftZw" name="Linux  &lt;&lt;OS>>">
-    <nestedClassifier xmi:type="uml:Node" xmi:id="_oiMPMFw7EeSZ_tmJKjaQeA" name="Servidor Control Versiones">
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_oiMPMFw7EeSZ_tmJKjaQeA" name="Servidor de Control Versiones">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_qdk90Fw7EeSZ_tmJKjaQeA" name="Git server 2.1.0" fileName="Artifact1.file"/>
     </nestedClassifier>
     <nestedClassifier xmi:type="uml:Node" xmi:id="_bWv-EFw6EeSZ_tmJKjaQeA" name="Servidor web ">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_d_lMEFw7EeSZ_tmJKjaQeA" name="Apache 2.4.7" fileName="Artifact1.file"/>
-      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_YLniYMzWEeS8k_f0aM8z0Q" name="djnago 1.7.4" fileName="Artifact1.file"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_YLniYMzWEeS8k_f0aM8z0Q" name="Django 1.7.4" fileName="Artifact1.file"/>
       <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_UK6UUGRPEeSrZPw9x9ftZw" name="Python 2.7"/>
     </nestedClassifier>
     <nestedClassifier xmi:type="uml:Node" xmi:id="_48GSUFw6EeSZ_tmJKjaQeA" name="Servidor de BD">
