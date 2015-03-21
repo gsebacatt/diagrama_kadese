@@ -67,7 +67,7 @@
             <children xmi:type="notation:Shape" xmi:id="_jS5f0Vw7EeSZ_tmJKjaQeA" type="25">
               <children xmi:type="notation:DecorationNode" xmi:id="_jS5f01w7EeSZ_tmJKjaQeA" type="27"/>
               <element xmi:type="uml:Artifact" href="Diagrama_Despliegue.uml#_jS5f0Fw7EeSZ_tmJKjaQeA"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jS5f0lw7EeSZ_tmJKjaQeA" x="16" y="14" width="130" height="68"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jS5f0lw7EeSZ_tmJKjaQeA" x="16" y="14" width="130" height="60"/>
             </children>
             <styles xmi:type="notation:TitleStyle" xmi:id="_48QDVFw6EeSZ_tmJKjaQeA"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_48QDVVw6EeSZ_tmJKjaQeA"/>
