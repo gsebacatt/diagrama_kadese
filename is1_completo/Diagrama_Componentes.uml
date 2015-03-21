@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nN1U0M99EeSBketP2fIWRg" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nN1U0c99EeSBketP2fIWRg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_vPca0M99EeSBketP2fIWRg" name="Python 2.7"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_UOb2IM9-EeSBketP2fIWRg" name="Django 1.7"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_WGu0gM9-EeSBketP2fIWRg" name="Sistema para Consultora"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_as_N8M9-EeSBketP2fIWRg" name="Modelo"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_buDCUM9-EeSBketP2fIWRg" name="Vista"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_craCcM9-EeSBketP2fIWRg" name="Controlador"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_P3RzMM9_EeSBketP2fIWRg" name="Apache 2.4.7"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_cmBWsM9_EeSBketP2fIWRg" name="PostgreSQL 9.4.3"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ggJC4M9_EeSBketP2fIWRg" name="mod_WSGI"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lLleUM9_EeSBketP2fIWRg" name="Psycopg2"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_p6myMM9_EeSBketP2fIWRg" name="Mozilla FireFox Browser"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="_tuiW0M9_EeSBketP2fIWRg" name="HTTP/IPv4"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_4jBNEM9_EeSBketP2fIWRg" client="_WGu0gM9-EeSBketP2fIWRg" supplier="_vPca0M99EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_5MHNYM9_EeSBketP2fIWRg" client="_UOb2IM9-EeSBketP2fIWRg" supplier="_as_N8M9-EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_51C1oM9_EeSBketP2fIWRg" client="_UOb2IM9-EeSBketP2fIWRg" supplier="_buDCUM9-EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6XT1MM9_EeSBketP2fIWRg" client="_UOb2IM9-EeSBketP2fIWRg" supplier="_craCcM9-EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_8WiiAM9_EeSBketP2fIWRg" client="_WGu0gM9-EeSBketP2fIWRg" supplier="_UOb2IM9-EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_NKK3QM-AEeSBketP2fIWRg" client="_cmBWsM9_EeSBketP2fIWRg" supplier="_lLleUM9_EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_N50ykM-AEeSBketP2fIWRg" client="_P3RzMM9_EeSBketP2fIWRg" supplier="_ggJC4M9_EeSBketP2fIWRg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_PQayEM-AEeSBketP2fIWRg" client="_p6myMM9_EeSBketP2fIWRg" supplier="_tuiW0M9_EeSBketP2fIWRg"/>
+</uml:Model>
