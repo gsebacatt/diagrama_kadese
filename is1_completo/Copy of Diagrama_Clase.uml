@@ -561,7 +561,11 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q3P7E89HEeSfa-zkojT8ag" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_-KERgM_1EeSGeaoHJ1mgNQ" name="delegacion"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-KERgM_1EeSGeaoHJ1mgNQ" name="delegacion">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lnDh0NANEeSGeaoHJ1mgNQ" name="delegacion_id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_TC_oMM_2EeSGeaoHJ1mgNQ" memberEnd="_TC_oMc_2EeSGeaoHJ1mgNQ _TC9zAM_2EeSGeaoHJ1mgNQ">
     <name xsi:nil="true"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_TC_oMc_2EeSGeaoHJ1mgNQ" name="hU" type="_lnYEYFE5EeSLed2XihD4SA" association="_TC_oMM_2EeSGeaoHJ1mgNQ">
