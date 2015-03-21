@@ -128,14 +128,6 @@
           <element xmi:type="uml:Property" href="Copy%20of%20Diagrama_Clase.uml#_kSneUMyzEeS8k_f0aM8z0Q"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_kSosccyzEeS8k_f0aM8z0Q"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_DkmfQM9AEeSfa-zkojT8ag" type="3012">
-          <element xmi:type="uml:Property" href="Copy%20of%20Diagrama_Clase.uml#_DkhmwM9AEeSfa-zkojT8ag"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_DkmfQc9AEeSfa-zkojT8ag"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_quTeoM9AEeSfa-zkojT8ag" type="3012">
-          <element xmi:type="uml:Property" href="Copy%20of%20Diagrama_Clase.uml#_quOmIM9AEeSfa-zkojT8ag"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_quTeoc9AEeSfa-zkojT8ag"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_W4B7EVE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_W4B7ElE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:FilteringStyle" xmi:id="_W4B7E1E5EeSLed2XihD4SA"/>

@@ -138,12 +138,6 @@ otros modelos</body>
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_kSneUMyzEeS8k_f0aM8z0Q" name="tipo_Rol" visibility="private" type="_79gQ0FTGEeST3_OQcXnYyQ"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_DkhmwM9AEeSfa-zkojT8ag" name="Usuario_Id" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_quOmIM9AEeSfa-zkojT8ag" name="Proyecto_Id" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
-    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_IzvHYM5gEeSn1M-rWoKTxg" name="set_nombre_rol">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_sE0PYM5gEeSn1M-rWoKTxg" name="nombre_rol">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
