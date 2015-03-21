@@ -46,10 +46,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9vcCsM8_EeSfa-zkojT8ag" name="Observacion" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_UzkN8M_2EeSGeaoHJ1mgNQ" name="delegacion" type="_-KERgM_1EeSGeaoHJ1mgNQ" association="_UzmqMM_2EeSGeaoHJ1mgNQ">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzkN8c_2EeSGeaoHJ1mgNQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UzkN8s_2EeSGeaoHJ1mgNQ" value="1"/>
-    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NEM9cNAVEeSGeaoHJ1mgNQ" name="objects" type="_-HxP0NATEeSGeaoHJ1mgNQ"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_HJdpwMymEeS8k_f0aM8z0Q" name="activar_Usuario" visibility="public">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_R3SeYMymEeS8k_f0aM8z0Q" name="Usuario_Id">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
@@ -174,6 +171,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_jQboMFTIEeST3_OQcXnYyQ" name="Nombre" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yY-mENAWEeSGeaoHJ1mgNQ" name="contenttype" type="_nrzrANAREeSGeaoHJ1mgNQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_20o5ENAWEeSGeaoHJ1mgNQ" name="codename">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_rRW-4M5wEeSp_qLPgWRl-Q" name="get_Permiso">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_yI43YM5wEeSp_qLPgWRl-Q" name="Nombre" type="_XbzWgFE5EeSLed2XihD4SA" direction="out" effect="read"/>
     </ownedOperation>
@@ -203,10 +204,6 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_KojVEMzNEeS8k_f0aM8z0Q" name="HU" type="_lnYEYFE5EeSLed2XihD4SA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NYkloMzNEeS8k_f0aM8z0Q" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NYlMsMzNEeS8k_f0aM8z0Q" value="*"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_T_Om8M_2EeSGeaoHJ1mgNQ" name="delegacion" type="_-KERgM_1EeSGeaoHJ1mgNQ" association="_T_RDMM_2EeSGeaoHJ1mgNQ">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_Om8c_2EeSGeaoHJ1mgNQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_POAM_2EeSGeaoHJ1mgNQ" value="1"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_JbJd8M5mEeSn1M-rWoKTxg" name="Crear_proyecto">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_JbJd8c5mEeSn1M-rWoKTxg" name="proyecto_creado" type="_dAtJgFE5EeSLed2XihD4SA"/>
@@ -328,10 +325,6 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_iyCqIMy4EeS8k_f0aM8z0Q" name="Estado" visibility="private" type="_WvbM0My4EeS8k_f0aM8z0Q"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_TC9zAM_2EeSGeaoHJ1mgNQ" name="delegacion" type="_-KERgM_1EeSGeaoHJ1mgNQ" association="_TC_oMM_2EeSGeaoHJ1mgNQ">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TC9zAc_2EeSGeaoHJ1mgNQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TC9zAs_2EeSGeaoHJ1mgNQ" value="1"/>
-    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_B5IeAM5mEeSn1M-rWoKTxg" name="Crear_HU">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_B5IeAc5mEeSn1M-rWoKTxg" name="creado_HU" direction="return">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
@@ -539,6 +532,18 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q3OF4c9HEeSfa-zkojT8ag" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q3OF4s9HEeSfa-zkojT8ag" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2QT2QNAREeSGeaoHJ1mgNQ" name="asignacion_id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JWnYwNASEeSGeaoHJ1mgNQ" name="Usuario_Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LKSV0NASEeSGeaoHJ1mgNQ" name="Rol_Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_McAcYNASEeSGeaoHJ1mgNQ" name="Proyecto_Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_pZBCgM9HEeSfa-zkojT8ag" memberEnd="_pZBCgc9HEeSfa-zkojT8ag _pY_0YM9HEeSfa-zkojT8ag">
     <name xsi:nil="true"/>
@@ -565,12 +570,25 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_lnDh0NANEeSGeaoHJ1mgNQ" name="delegacion_id">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AZ_cANASEeSGeaoHJ1mgNQ" name="Proyecto_Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CGrAQNASEeSGeaoHJ1mgNQ" name="Usuario_Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_GTlsoNASEeSGeaoHJ1mgNQ" name="HU_Id" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_TC_oMM_2EeSGeaoHJ1mgNQ" memberEnd="_TC_oMc_2EeSGeaoHJ1mgNQ _TC9zAM_2EeSGeaoHJ1mgNQ">
     <name xsi:nil="true"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_TC_oMc_2EeSGeaoHJ1mgNQ" name="hU" type="_lnYEYFE5EeSLed2XihD4SA" association="_TC_oMM_2EeSGeaoHJ1mgNQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TDAPQM_2EeSGeaoHJ1mgNQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TDAPQc_2EeSGeaoHJ1mgNQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TC9zAM_2EeSGeaoHJ1mgNQ" name="delegacion" type="_-KERgM_1EeSGeaoHJ1mgNQ" association="_TC_oMM_2EeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TC9zAc_2EeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TC9zAs_2EeSGeaoHJ1mgNQ" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_T_RDMM_2EeSGeaoHJ1mgNQ" memberEnd="_T_RDMc_2EeSGeaoHJ1mgNQ _T_Om8M_2EeSGeaoHJ1mgNQ">
@@ -579,12 +597,53 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_RDMs_2EeSGeaoHJ1mgNQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_RDM8_2EeSGeaoHJ1mgNQ" value="1"/>
     </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_T_Om8M_2EeSGeaoHJ1mgNQ" name="delegacion" type="_-KERgM_1EeSGeaoHJ1mgNQ" association="_T_RDMM_2EeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_Om8c_2EeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_POAM_2EeSGeaoHJ1mgNQ" value="1"/>
+    </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_UzmqMM_2EeSGeaoHJ1mgNQ" memberEnd="_UzmqMc_2EeSGeaoHJ1mgNQ _UzkN8M_2EeSGeaoHJ1mgNQ">
     <name xsi:nil="true"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_UzmqMc_2EeSGeaoHJ1mgNQ" name="usuario" type="_Vd-X4FE5EeSLed2XihD4SA" association="_UzmqMM_2EeSGeaoHJ1mgNQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzmqMs_2EeSGeaoHJ1mgNQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UzmqM8_2EeSGeaoHJ1mgNQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UzkN8M_2EeSGeaoHJ1mgNQ" name="delegacion" type="_-KERgM_1EeSGeaoHJ1mgNQ" association="_UzmqMM_2EeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UzkN8c_2EeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UzkN8s_2EeSGeaoHJ1mgNQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MFjgsNAREeSGeaoHJ1mgNQ" name="BaseUserModel"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nrzrANAREeSGeaoHJ1mgNQ" name="ContentType">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_44GbENAVEeSGeaoHJ1mgNQ" name="app_label">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9KrDgNAVEeSGeaoHJ1mgNQ" name="model"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DPj-INAWEeSGeaoHJ1mgNQ" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rIqzcNAREeSGeaoHJ1mgNQ" name="utiliza" memberEnd="_rIqzcdAREeSGeaoHJ1mgNQ _rIplUNAREeSGeaoHJ1mgNQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rIqzcdAREeSGeaoHJ1mgNQ" name="permiso" type="_XbzWgFE5EeSLed2XihD4SA" association="_rIqzcNAREeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rIqzctAREeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rIqzc9AREeSGeaoHJ1mgNQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rIplUNAREeSGeaoHJ1mgNQ" name="contentType" type="_nrzrANAREeSGeaoHJ1mgNQ" association="_rIqzcNAREeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rIplUdAREeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rIplUtAREeSGeaoHJ1mgNQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-HxP0NATEeSGeaoHJ1mgNQ" name="BaseUserManager"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_UONGANAVEeSGeaoHJ1mgNQ" client="_Vd-X4FE5EeSLed2XihD4SA" supplier="_-HxP0NATEeSGeaoHJ1mgNQ"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_SrKJcNAWEeSGeaoHJ1mgNQ" client="_Vd-X4FE5EeSLed2XihD4SA" supplier="_MFjgsNAREeSGeaoHJ1mgNQ"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZZC9wNAWEeSGeaoHJ1mgNQ" name="genera" memberEnd="_ZZC9wdAWEeSGeaoHJ1mgNQ _ZZBvoNAWEeSGeaoHJ1mgNQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZZC9wdAWEeSGeaoHJ1mgNQ" name="historial" type="_o1TY8FE5EeSLed2XihD4SA" association="_ZZC9wNAWEeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZZC9wtAWEeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZZC9w9AWEeSGeaoHJ1mgNQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZZBvoNAWEeSGeaoHJ1mgNQ" name="hU" type="_lnYEYFE5EeSLed2XihD4SA" association="_ZZC9wNAWEeSGeaoHJ1mgNQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZZBvodAWEeSGeaoHJ1mgNQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZZBvotAWEeSGeaoHJ1mgNQ" value="1"/>
     </ownedEnd>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_35YNYFE_EeSLed2XihD4SA">
