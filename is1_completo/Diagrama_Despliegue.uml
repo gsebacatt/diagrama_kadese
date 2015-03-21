@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LP7EcFw6EeSZ_tmJKjaQeA" name="Model">
   <ownedComment xmi:type="uml:Comment" xmi:id="_lP27cGnTEeSXwYVYUURjXg" annotatedElement="_GsDbMFw7EeSZ_tmJKjaQeA">
-    <body>Navegadores clientes soportados según definición de ERS&#xD;
+    <body>Navegador cliente soportado según definición de ERS&#xD;
 </body>
   </ownedComment>
   <ownedComment xmi:type="uml:Comment" xmi:id="_YWqJgGnVEeSXwYVYUURjXg" annotatedElement="_0IfrQGRPEeSrZPw9x9ftZw">
@@ -30,19 +30,21 @@ de renderizado de los respectivos navegadores</body>
     </ownedComment>
     <body>Navegadores clientes soportados según la definición de la ERS</body>
   </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_l_RxMM_kEeSqv4JAHYniSQ" annotatedElement="_0IfrQGRPEeSrZPw9x9ftZw">
+    <body>OS: Ubuntu
+Version: 14.04
+Licencia: GPL</body>
+  </ownedComment>
+  <ownedComment xmi:type="uml:Comment" xmi:id="_8fdkIM_lEeSqv4JAHYniSQ">
+    <body>Server Device:
+CPU: Intel Dual Core o AMD Athlon X2 o superiores
+Memory: 4GB DDR2
+HDD: 10O GB</body>
+  </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_LP7EcVw6EeSZ_tmJKjaQeA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Node" xmi:id="_GsDbMFw7EeSZ_tmJKjaQeA" name="Browser Firefox x.x">
-    <nestedClassifier xmi:type="uml:Node" xmi:id="_s-XOAMzVEeS8k_f0aM8z0Q" name="Browser Firefox x.x">
-      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_s-XOAczVEeS8k_f0aM8z0Q" name="Gekho engine"/>
-    </nestedClassifier>
-    <nestedClassifier xmi:type="uml:Node" xmi:id="_uZu_0MzVEeS8k_f0aM8z0Q" name="CopyOf_Browser Firefox x.x_1">
-      <nestedClassifier xmi:type="uml:Node" xmi:id="_uZu_0czVEeS8k_f0aM8z0Q" name="Browser Firefox x.x">
-        <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_uZu_0szVEeS8k_f0aM8z0Q" name="Gekho engine"/>
-      </nestedClassifier>
-      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_uZu_08zVEeS8k_f0aM8z0Q" name="Gekho engine"/>
-    </nestedClassifier>
     <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_DbfwsGRPEeSrZPw9x9ftZw" name="Gekho engine"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_V7h2EFw7EeSZ_tmJKjaQeA" name="User"/>
@@ -50,12 +52,9 @@ de renderizado de los respectivos navegadores</body>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_ssV7cFw7EeSZ_tmJKjaQeA" name="ssh:22" client="_bWv-EFw6EeSZ_tmJKjaQeA" supplier="_oiMPMFw7EeSZ_tmJKjaQeA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_0PwpkFw7EeSZ_tmJKjaQeA" client="_bWv-EFw6EeSZ_tmJKjaQeA" supplier="_48GSUFw6EeSZ_tmJKjaQeA"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_4R2mAFw7EeSZ_tmJKjaQeA" name="http" client="_GsDbMFw7EeSZ_tmJKjaQeA" supplier="_bWv-EFw6EeSZ_tmJKjaQeA"/>
-  <packagedElement xmi:type="uml:Device" xmi:id="_0IfrQGRPEeSrZPw9x9ftZw" name="Servidor Ubuntu Linux 14.10">
+  <packagedElement xmi:type="uml:Device" xmi:id="_0IfrQGRPEeSrZPw9x9ftZw" name="Linux  &lt;&lt;OS>>">
     <nestedClassifier xmi:type="uml:Node" xmi:id="_oiMPMFw7EeSZ_tmJKjaQeA" name="Servidor Control Versiones">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_qdk90Fw7EeSZ_tmJKjaQeA" name="Git server 2.1.0" fileName="Artifact1.file"/>
-      <nestedClassifier xmi:type="uml:Node" xmi:id="_hAOBAMzVEeS8k_f0aM8z0Q" name="Servidor Control Versiones">
-        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_hAOBAczVEeS8k_f0aM8z0Q" name="Git server" fileName="Artifact1.file"/>
-      </nestedClassifier>
     </nestedClassifier>
     <nestedClassifier xmi:type="uml:Node" xmi:id="_bWv-EFw6EeSZ_tmJKjaQeA" name="Servidor web ">
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_d_lMEFw7EeSZ_tmJKjaQeA" name="Apache 2.4.7" fileName="Artifact1.file"/>
@@ -67,9 +66,6 @@ de renderizado de los respectivos navegadores</body>
     </nestedClassifier>
     <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Oi-CkMzVEeS8k_f0aM8z0Q" name="Git server" fileName="Artifact1.file"/>
     <nestedClassifier xmi:type="uml:Node" xmi:id="_v3O4kMzVEeS8k_f0aM8z0Q" name="Servidor de correo electronico">
-      <nestedClassifier xmi:type="uml:Node" xmi:id="_v3O4kczVEeS8k_f0aM8z0Q" name="Browser Firefox x.x">
-        <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_v3O4kszVEeS8k_f0aM8z0Q" name="Gekho engine"/>
-      </nestedClassifier>
       <nestedClassifier xmi:type="uml:Artifact" xmi:id="_xfIDcMzVEeS8k_f0aM8z0Q" name="SMTP server" fileName="Artifact1.file"/>
     </nestedClassifier>
   </packagedElement>
