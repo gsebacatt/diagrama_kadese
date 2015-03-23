@@ -271,8 +271,8 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_hVc64My5EeS8k_f0aM8z0Q" name="Estado" visibility="private" type="_RDKYIMy5EeS8k_f0aM8z0Q"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_RlOAINFKEeSt2KY4reNjtw" name="proyecto_id" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RlOAINFKEeSt2KY4reNjtw" name="Proyecto_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_WAWEMFViEeSKoOni51OQkg" name="jgjug"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_OfhosM5kEeSn1M-rWoKTxg" name="Crear_Sprint">
@@ -304,8 +304,8 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FuwUkMzNEeS8k_f0aM8z0Q" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fuw7oMzNEeS8k_f0aM8z0Q" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_GvBSoNFKEeSt2KY4reNjtw" name="proyecto_id" visibility="private">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GvBSoNFKEeSt2KY4reNjtw" name="Proyecto_id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_slsngM5jEeSn1M-rWoKTxg" name="Crear_flujo">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_9K7UYM5jEeSn1M-rWoKTxg" name="creado_flujo" type="_fXXe4FE5EeSLed2XihD4SA" direction="return"/>
