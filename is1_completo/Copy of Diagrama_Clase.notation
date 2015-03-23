@@ -426,9 +426,9 @@
           <element xmi:type="uml:Property" href="Copy%20of%20Diagrama_Clase.uml#_wIK5MFTUEeST3_OQcXnYyQ"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_wIN8gVTUEeST3_OQcXnYyQ"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_GwUTINFKEeSt2KY4reNjtw" type="3012">
-          <element xmi:type="uml:Property" href="Copy%20of%20Diagrama_Clase.uml#_GvBSoNFKEeSt2KY4reNjtw"/>
-          <layoutConstraint xmi:type="notation:Location" xmi:id="_GwUTIdFKEeSt2KY4reNjtw"/>
+        <children xmi:type="notation:Shape" xmi:id="_1rHQQNFKEeSt2KY4reNjtw" type="3012">
+          <element xmi:type="uml:Property" href="Copy%20of%20Diagrama_Clase.uml#_1rBwsNFKEeSt2KY4reNjtw"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_1rHQQdFKEeSt2KY4reNjtw"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_fXYtBFE5EeSLed2XihD4SA"/>
         <styles xmi:type="notation:SortingStyle" xmi:id="_fXYtBVE5EeSLed2XihD4SA"/>
