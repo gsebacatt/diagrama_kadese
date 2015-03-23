@@ -11,10 +11,10 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ru-MEs9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_cmw1AM9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_cmuYwM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_cmuYwM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cmw1Ac9oEeSdUPpR30BefQ" x="99" y="28" width="16" height="409"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_Ru5TkM9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_Ru5TkM9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ru6hsc9oEeSdUPpR30BefQ" x="4" y="10" width="214" height="289"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_TgM5IM9oEeSdUPpR30BefQ" type="3001">
@@ -24,18 +24,18 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TgRKks9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_eRU5YM9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_eRSdIM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_eRSdIM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eRU5Yc9oEeSdUPpR30BefQ" x="32" y="29" width="16" height="65"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_y11fQM9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_y1zDAM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_y1zDAM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y11fQc9oEeSdUPpR30BefQ" x="32" y="248" width="16" height="154"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_jvTWQM9uEeSBketP2fIWRg" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_jvPr4M9uEeSBketP2fIWRg"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_jvPr4M9uEeSBketP2fIWRg"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jvTWQc9uEeSBketP2fIWRg" x="32" y="97" width="16" height="148"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_TgMSEM9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_TgMSEM9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TgM5Ic9oEeSdUPpR30BefQ" x="299" y="8" width="81" height="474"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_U6nosM9oEeSdUPpR30BefQ" type="3001">
@@ -45,10 +45,10 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nSHdEs9rEeSBketP2fIWRg"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_nvnKAM9uEeSBketP2fIWRg" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_nvi4kM9uEeSBketP2fIWRg"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_nvi4kM9uEeSBketP2fIWRg"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nvnKAc9uEeSBketP2fIWRg" x="23" y="150" width="16" height="92"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_U6makM9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_U6makM9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_U6nosc9oEeSdUPpR30BefQ" x="481" y="8" width="63" height="466"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_We6F8M9oEeSdUPpR30BefQ" type="3001">
@@ -58,10 +58,10 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nSR1Is9rEeSBketP2fIWRg"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_1sQrEM9uEeSBketP2fIWRg" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_1sLykM9uEeSBketP2fIWRg"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_1sLykM9uEeSBketP2fIWRg"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1sQrEc9uEeSBketP2fIWRg" x="35" y="151" width="16" height="91"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_We430M9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_We430M9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_We6F8c9oEeSdUPpR30BefQ" x="683" y="8" width="86" height="463"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_Yd6wUM9oEeSdUPpR30BefQ" type="3001">
@@ -71,27 +71,27 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yd-ass9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_fwBE8M9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_fv-BoM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_fv-BoM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fwBE8c9oEeSdUPpR30BefQ" x="31" y="42" width="16" height="50"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_B66A8M9pEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_B63ksM9pEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_B63ksM9pEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B66A8c9pEeSdUPpR30BefQ" x="31" y="343" width="16" height="53"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_Yd5iMM9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_Yd5iMM9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yd6wUc9oEeSdUPpR30BefQ" x="858" y="8" width="78" height="466"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHeOVM9oEeSdUPpR30BefQ"/>
       </children>
-      <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_BHdnQM9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_BHdnQM9oEeSdUPpR30BefQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BHeOVc9oEeSdUPpR30BefQ" x="-8" y="49" width="961"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_BHeOVs9oEeSdUPpR30BefQ" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_BHeOV89oEeSdUPpR30BefQ"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_BHeOWM9oEeSdUPpR30BefQ">
-      <owner xmi:type="uml:Model" href="Diagrama_Secuancia_Asignar_Rol2.uml#_BHcZIM9oEeSdUPpR30BefQ"/>
+      <owner xmi:type="uml:Model" href="Diagrama_Secuancia_Asignar_Rol.uml#_BHcZIM9oEeSdUPpR30BefQ"/>
     </styles>
-    <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_BHdnQM9oEeSdUPpR30BefQ"/>
+    <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_BHdnQM9oEeSdUPpR30BefQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_sYr1oM9oEeSdUPpR30BefQ" type="4005" source="_fwBE8M9oEeSdUPpR30BefQ" target="_eRU5YM9oEeSdUPpR30BefQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_sYr1pM9oEeSdUPpR30BefQ" type="6003">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_sYr1pc9oEeSdUPpR30BefQ" x="-1" y="12"/>
@@ -102,7 +102,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_sYr1oc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_sYr1os9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_sYscss9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_sYdzMM9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_sYdzMM9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sYr1o89oEeSdUPpR30BefQ" points="[0, 0, 390, 8]$[-374, -8, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sY2NsM9oEeSdUPpR30BefQ" id="(0.0,1.0){32}"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sY2Nsc9oEeSdUPpR30BefQ" id="(0.0,0.9384615384615385){32}"/>
@@ -117,7 +117,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_6i7Gwc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_6i7Gws9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_6i7t0s9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_6iyj4M9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_6iyj4M9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6i7Gw89oEeSdUPpR30BefQ" points="[3, -2, -115, -3]$[134, 1, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6jFe0M9oEeSdUPpR30BefQ" id="(0.625,0.22493887530562348)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6jFe0c9oEeSdUPpR30BefQ" id="(0.5,0.12837837837837837)"/>
@@ -132,7 +132,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="__C5SAc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="__C5SAs9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="__C55FM9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#__C2OsM9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#__C2OsM9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__C5SA89oEeSdUPpR30BefQ" points="[5, 4, -116, 0]$[120, 5, -1, 1]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__DERIM9oEeSdUPpR30BefQ" id="(0.9375,0.726161369193154)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__DERIc9oEeSdUPpR30BefQ" id="(0.125,0.525974025974026)"/>
@@ -147,7 +147,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_PgH5cc9pEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_PgH5cs9pEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_PgIghM9pEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_Pf4o4M9pEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_Pf4o4M9pEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PgH5c89pEeSdUPpR30BefQ" points="[0, 0, 388, 5]$[-372, -5, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PgS4kM9pEeSdUPpR30BefQ" id="(0.0,0.0){32}"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PgS4kc9pEeSdUPpR30BefQ" id="(0.0,0.6038961038961039){32}"/>
@@ -162,7 +162,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_JAkCwc9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_JAkCws9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_JAlQ4c9uEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_I_Xv8M9uEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_I_Xv8M9uEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JAkCw89uEeSBketP2fIWRg" points="[16, 0, -156, 1]$[188, -1, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JAzTUM9uEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JAzTUc9uEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
@@ -177,7 +177,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_Oac4kc9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_Oac4ks9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_OadfpM9uEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_OaQEQM9uEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_OaQEQM9uEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Oac4k89uEeSBketP2fIWRg" points="[7, 4, -409, -1]$[432, 5, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oaq7AM9uEeSBketP2fIWRg" id="(0.5625,0.12307692307692308)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Oaq7Ac9uEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
@@ -192,7 +192,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_sA9qcc9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_sA9qcs9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_sA-Rgs9uEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_sAvoAM9uEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_sAvoAM9uEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sA9qc89uEeSBketP2fIWRg" points="[9, 0, -107, 20]$[132, -20, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sBJ3sM9uEeSBketP2fIWRg" id="(0.125,0.33783783783783783)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sBKewM9uEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
@@ -207,7 +207,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_-XShgc9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_-XShgs9uEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_-XTIks9uEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_-XG7UM9uEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_-XG7UM9uEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-XShg89uEeSBketP2fIWRg" points="[16, 0, -123, 1]$[155, -1, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Y0ykM9uEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Y0ykc9uEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
@@ -222,7 +222,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_VFXb8c9vEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_VFXb8s9vEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_VFYDBM9vEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_VFHkUM9vEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_VFHkUM9vEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VFXb889vEeSBketP2fIWRg" points="[-2, -7, 214, -3]$[-200, -4, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VFkQQM9vEeSBketP2fIWRg" id="(0.125,0.9010989010989011)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VFk3UM9vEeSBketP2fIWRg" id="(0.0,0.8586956521739131){32}"/>
@@ -237,7 +237,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_0tRd0c9vEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_0tRd0s9vEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_0tSE5M9vEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_0tAYEM9vEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_0tAYEM9vEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0tRd089vEeSBketP2fIWRg" points="[0, 0, 173, 14]$[-157, -14, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0teSIM9vEeSBketP2fIWRg" id="(0.0,1.0){32}"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0teSIc9vEeSBketP2fIWRg" id="(0.0,0.8851351351351351){32}"/>
@@ -252,7 +252,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_HczfEc9wEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_HczfEs9wEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_Hc0GJM9wEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_HcjncM9wEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_HcjncM9wEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HczfE89wEeSBketP2fIWRg" points="[10, -9, -212, 5]$[238, -14, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HdBhgM9wEeSBketP2fIWRg" id="(0.375,0.5672371638141809)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HdBhgc9wEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
@@ -267,7 +267,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_OMTngc9xEeSBketP2fIWRg"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_OMTngs9xEeSBketP2fIWRg"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_OMUOkc9xEeSBketP2fIWRg"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_OMDv4M9xEeSBketP2fIWRg"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_OMDv4M9xEeSBketP2fIWRg"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OMTng89xEeSBketP2fIWRg" points="[11, -1, -542, 54]$[569, -55, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OMf0wM9xEeSBketP2fIWRg" id="(0.3125,0.6428571428571429)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OMf0wc9xEeSBketP2fIWRg" id="(0.0,0.0){8}"/>
@@ -284,10 +284,10 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0yM9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_KXH0yc9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Ae89oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Ae89oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0zs9oEeSdUPpR30BefQ" x="51" y="41" width="16" height="240"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Acc9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Acc9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0z89oEeSdUPpR30BefQ" x="54" y="10" width="118" height="403"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_KXH00M9oEeSdUPpR30BefQ" type="3001">
@@ -297,24 +297,24 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH01M9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_KXH01c9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AeM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AeM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH02s9oEeSdUPpR30BefQ" x="53" y="42" width="16" height="125"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_KXH0289oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Ahs9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Ahs9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH04M9oEeSdUPpR30BefQ" x="53" y="171" width="16" height="113"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Acs9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Acs9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH04c9oEeSdUPpR30BefQ" x="190" y="8" width="123" height="401"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_KXH04s9oEeSdUPpR30BefQ" type="3001">
           <children xmi:type="notation:DecorationNode" xmi:id="_KXH0489oEeSdUPpR30BefQ" type="5002"/>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Ac89oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Ac89oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0589oEeSdUPpR30BefQ" x="349" y="8" width="63" height="393"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_KXH06M9oEeSdUPpR30BefQ" type="3001">
           <children xmi:type="notation:DecorationNode" xmi:id="_KXH06c9oEeSdUPpR30BefQ" type="5002"/>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AdM9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AdM9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH07c9oEeSdUPpR30BefQ" x="454" y="8" width="86" height="383"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_KXH07s9oEeSdUPpR30BefQ" type="3001">
@@ -324,27 +324,27 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH08s9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_KXH0889oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Aec9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Aec9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0-M9oEeSdUPpR30BefQ" x="31" y="42" height="125"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_KXH0-c9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AhM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AhM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0_s9oEeSdUPpR30BefQ" x="31" y="169" width="16" height="117"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Adc9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Adc9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH0_89oEeSdUPpR30BefQ" x="584" y="8" width="78" height="386"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH1AM9oEeSdUPpR30BefQ"/>
       </children>
-      <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AcM9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AcM9oEeSdUPpR30BefQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KXH1Ac9oEeSdUPpR30BefQ" x="6" y="9"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_KXH1As9oEeSdUPpR30BefQ" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_KXH1A89oEeSdUPpR30BefQ"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_KXH1BM9oEeSdUPpR30BefQ">
-      <owner xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AcM9oEeSdUPpR30BefQ"/>
+      <owner xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AcM9oEeSdUPpR30BefQ"/>
     </styles>
-    <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AcM9oEeSdUPpR30BefQ"/>
+    <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AcM9oEeSdUPpR30BefQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_KXH1Bc9oEeSdUPpR30BefQ" type="4004" source="_KXH0yc9oEeSdUPpR30BefQ" target="_KXH01c9oEeSdUPpR30BefQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_KXH1Bs9oEeSdUPpR30BefQ" type="6002">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_KXH1B89oEeSdUPpR30BefQ" x="1" y="-13"/>
@@ -355,7 +355,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1Cs9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1C89oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1DM9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Akc9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Akc9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1Ec9oEeSdUPpR30BefQ" points="[1, 5, -133, 0]$[132, -10, -2, -15]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Es9oEeSdUPpR30BefQ" id="(0.5,0.004166666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1E89oEeSdUPpR30BefQ" id="(0.25,0.015999999999999993)"/>
@@ -370,7 +370,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1Gc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1Gs9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1G89oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Aks9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Aks9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1IM9oEeSdUPpR30BefQ" points="[7, 2, -362, 0]$[367, -23, -2, -25]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Ic9oEeSdUPpR30BefQ" id="(0.5625,0.184)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Is9oEeSdUPpR30BefQ" id="(0.375,0.2)"/>
@@ -385,7 +385,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1KM9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1Kc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1Ks9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Ak89oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Ak89oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1L89oEeSdUPpR30BefQ" points="[-6, 1, 372, -66]$[-362, 67, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1MM9oEeSdUPpR30BefQ" id="(0.375,0.464)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Mc9oEeSdUPpR30BefQ" id="(0.0,1.0){32}"/>
@@ -400,7 +400,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1N89oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1OM9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1Oc9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7AlM9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7AlM9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1Ps9oEeSdUPpR30BefQ" points="[1, 7, -129, 0]$[129, -1, -1, -8]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1P89oEeSdUPpR30BefQ" id="(0.9375,0.5375)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1QM9oEeSdUPpR30BefQ" id="(0.4375,0.07079646017699115)"/>
@@ -415,7 +415,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1Rs9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1R89oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1SM9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Alc9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Alc9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1Tc9oEeSdUPpR30BefQ" points="[11, 5, -127, 0]$[133, -6, -5, -11]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Ts9oEeSdUPpR30BefQ" id="(0.3125,0.6958333333333333)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1T89oEeSdUPpR30BefQ" id="(0.3125,0.3893805309734513)"/>
@@ -430,7 +430,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1Vc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1Vs9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1V89oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Als9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Als9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1XM9oEeSdUPpR30BefQ" points="[8, 8, -358, 0]$[364, 11, -2, 3]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Xc9oEeSdUPpR30BefQ" id="(0.5,0.48672566371681414)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1Xs9oEeSdUPpR30BefQ" id="(0.125,0.5555555555555556)"/>
@@ -445,7 +445,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_KXH1ZM9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_KXH1Zc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_KXH1Zs9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_KW7Al89oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_KW7Al89oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KXH1a89oEeSdUPpR30BefQ" points="[-1, 4, 372, -2]$[-357, 6, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1bM9oEeSdUPpR30BefQ" id="(0.0625,0.8290598290598291)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KXH1bc9oEeSdUPpR30BefQ" id="(0.0,0.8938053097345132){32}"/>
@@ -462,10 +462,10 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZOM9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_N4QZOc9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHy89oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHy89oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZPs9oEeSdUPpR30BefQ" x="51" y="41" width="16" height="240"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHwc9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHwc9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZP89oEeSdUPpR30BefQ" x="54" y="10" width="118" height="403"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_N4QZQM9oEeSdUPpR30BefQ" type="3001">
@@ -475,24 +475,24 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZRM9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_N4QZRc9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHyM9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHyM9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZSs9oEeSdUPpR30BefQ" x="53" y="42" width="16" height="125"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_N4QZS89oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH1s9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH1s9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZUM9oEeSdUPpR30BefQ" x="53" y="171" width="16" height="113"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHws9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHws9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZUc9oEeSdUPpR30BefQ" x="190" y="8" width="123" height="401"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_N4QZUs9oEeSdUPpR30BefQ" type="3001">
           <children xmi:type="notation:DecorationNode" xmi:id="_N4QZU89oEeSdUPpR30BefQ" type="5002"/>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHw89oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHw89oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZV89oEeSdUPpR30BefQ" x="349" y="8" width="63" height="393"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_N4QZWM9oEeSdUPpR30BefQ" type="3001">
           <children xmi:type="notation:DecorationNode" xmi:id="_N4QZWc9oEeSdUPpR30BefQ" type="5002"/>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHxM9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHxM9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZXc9oEeSdUPpR30BefQ" x="454" y="8" width="86" height="383"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_N4QZXs9oEeSdUPpR30BefQ" type="3001">
@@ -502,27 +502,27 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZYs9oEeSdUPpR30BefQ"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_N4QZY89oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHyc9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHyc9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZaM9oEeSdUPpR30BefQ" x="31" y="42" height="125"/>
           </children>
           <children xmi:type="notation:Shape" xmi:id="_N4QZac9oEeSdUPpR30BefQ" type="3006">
-            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH1M9oEeSdUPpR30BefQ"/>
+            <element xmi:type="uml:ActionExecutionSpecification" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH1M9oEeSdUPpR30BefQ"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZbs9oEeSdUPpR30BefQ" x="31" y="169" width="16" height="117"/>
           </children>
-          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHxc9oEeSdUPpR30BefQ"/>
+          <element xmi:type="uml:Lifeline" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHxc9oEeSdUPpR30BefQ"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZb89oEeSdUPpR30BefQ" x="584" y="8" width="78" height="386"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZcM9oEeSdUPpR30BefQ"/>
       </children>
-      <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHwM9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHwM9oEeSdUPpR30BefQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N4QZcc9oEeSdUPpR30BefQ" x="6" y="9"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_N4QZcs9oEeSdUPpR30BefQ" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_N4QZc89oEeSdUPpR30BefQ"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_N4QZdM9oEeSdUPpR30BefQ">
-      <owner xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHwM9oEeSdUPpR30BefQ"/>
+      <owner xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHwM9oEeSdUPpR30BefQ"/>
     </styles>
-    <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MHwM9oEeSdUPpR30BefQ"/>
+    <element xmi:type="uml:Interaction" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MHwM9oEeSdUPpR30BefQ"/>
     <edges xmi:type="notation:Edge" xmi:id="_N4QZdc9oEeSdUPpR30BefQ" type="4004" source="_N4QZOc9oEeSdUPpR30BefQ" target="_N4QZRc9oEeSdUPpR30BefQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_N4QZds9oEeSdUPpR30BefQ" type="6002">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_N4QZd89oEeSdUPpR30BefQ" x="1" y="-13"/>
@@ -533,7 +533,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZes9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZe89oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZfM9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH4c9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH4c9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZgc9oEeSdUPpR30BefQ" points="[1, 5, -133, 0]$[132, -10, -2, -15]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZgs9oEeSdUPpR30BefQ" id="(0.5,0.004166666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZg89oEeSdUPpR30BefQ" id="(0.25,0.015999999999999993)"/>
@@ -548,7 +548,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZic9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZis9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZi89oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH4s9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH4s9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZkM9oEeSdUPpR30BefQ" points="[7, 2, -362, 0]$[367, -23, -2, -25]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZkc9oEeSdUPpR30BefQ" id="(0.5625,0.184)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZks9oEeSdUPpR30BefQ" id="(0.375,0.2)"/>
@@ -563,7 +563,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZmM9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZmc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZms9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH489oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH489oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZn89oEeSdUPpR30BefQ" points="[-6, 1, 372, -66]$[-362, 67, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZoM9oEeSdUPpR30BefQ" id="(0.375,0.464)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZoc9oEeSdUPpR30BefQ" id="(0.0,1.0){32}"/>
@@ -578,7 +578,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZp89oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZqM9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZqc9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH5M9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH5M9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZrs9oEeSdUPpR30BefQ" points="[1, 7, -129, 0]$[129, -1, -1, -8]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZr89oEeSdUPpR30BefQ" id="(0.9375,0.5375)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZsM9oEeSdUPpR30BefQ" id="(0.4375,0.07079646017699115)"/>
@@ -593,7 +593,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZts9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZt89oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZuM9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH5c9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH5c9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZvc9oEeSdUPpR30BefQ" points="[11, 5, -127, 0]$[133, -6, -5, -11]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZvs9oEeSdUPpR30BefQ" id="(0.3125,0.6958333333333333)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZv89oEeSdUPpR30BefQ" id="(0.3125,0.3893805309734513)"/>
@@ -608,7 +608,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZxc9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZxs9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZx89oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH5s9oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH5s9oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZzM9oEeSdUPpR30BefQ" points="[8, 8, -358, 0]$[364, 11, -2, 3]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZzc9oEeSdUPpR30BefQ" id="(0.5,0.48672566371681414)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZzs9oEeSdUPpR30BefQ" id="(0.125,0.5555555555555556)"/>
@@ -623,7 +623,7 @@
       <styles xmi:type="notation:RoutingStyle" xmi:id="_N4QZ1M9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:FontStyle" xmi:id="_N4QZ1c9oEeSdUPpR30BefQ"/>
       <styles xmi:type="notation:LineStyle" xmi:id="_N4QZ1s9oEeSdUPpR30BefQ"/>
-      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol2.uml#_N4MH589oEeSdUPpR30BefQ"/>
+      <element xmi:type="uml:Message" href="Diagrama_Secuancia_Asignar_Rol.uml#_N4MH589oEeSdUPpR30BefQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_N4QZ289oEeSdUPpR30BefQ" points="[-1, 4, 372, -2]$[-357, 6, 16, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZ3M9oEeSdUPpR30BefQ" id="(0.0625,0.8290598290598291)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N4QZ3c9oEeSdUPpR30BefQ" id="(0.0,0.8938053097345132){32}"/>
