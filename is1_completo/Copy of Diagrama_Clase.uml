@@ -116,6 +116,10 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xH0wENDuEeSBCqjVxar53A" name="authenticate"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KE1AMNDvEeSBCqjVxar53A" name="tiene_permiso"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_PLyS8NDvEeSBCqjVxar53A" name="login"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RWaXcNDvEeSBCqjVxar53A" name="logout"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_W4As8FE5EeSLed2XihD4SA" name="Rol">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gYRFwFE6EeSLed2XihD4SA" name="Rol_Id" visibility="private">
@@ -214,6 +218,8 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_U01YIM8YEeSi6_ZcDSOeSQ" name="Modificar_Proyecto">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_kxSNwM8YEeSi6_ZcDSOeSQ" name="Modificado" type="_dAtJgFE5EeSLed2XihD4SA" direction="return"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TCNnYNDuEeSBCqjVxar53A" name="asignar_usuario"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_YkoHENDuEeSBCqjVxar53A" name="desasignar_usuario"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_eD6S8FE5EeSLed2XihD4SA" name="Sprint">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_gndYUFE6EeSLed2XihD4SA" name="Sprint_Id" visibility="private">
@@ -240,6 +246,8 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OfhosM5kEeSn1M-rWoKTxg" name="Crear_Sprint">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ofhosc5kEeSn1M-rWoKTxg" name="creado_sprint" type="_eD6S8FE5EeSLed2XihD4SA" direction="return"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_rsCnYNDvEeSBCqjVxar53A" name="cambiar_estado"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_s5sGQNDvEeSBCqjVxar53A" name="modificar_sprint"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fXXe4FE5EeSLed2XihD4SA" name="Flujo">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hQ4v0FE6EeSLed2XihD4SA" name="Flujo_Id" visibility="private">
@@ -271,6 +279,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pxpXQNDvEeSBCqjVxar53A" name="agregar_HU"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_gWVBgFE5EeSLed2XihD4SA" name="Actividad">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_heREgFE6EeSLed2XihD4SA" name="Acitividad_Id" visibility="private">
@@ -297,6 +306,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_F552sM5kEeSn1M-rWoKTxg" name="Crear_actividad">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_F552sc5kEeSn1M-rWoKTxg" name="actividad_creada" type="_gWVBgFE5EeSLed2XihD4SA" direction="return"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_m1DDQNDvEeSBCqjVxar53A" name="eliminar"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lnYEYFE5EeSLed2XihD4SA" name="HU">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_hW7tcFE6EeSLed2XihD4SA" name="HU_Id" visibility="private">
@@ -385,6 +395,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zSwXkM5yEeSp_qLPgWRl-Q" name="agregar_Archivos">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_4eNIwM5yEeSp_qLPgWRl-Q" name="Archivo" type="_nWAJYFE5EeSLed2XihD4SA"/>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_j--DcNDuEeSBCqjVxar53A" name="cambiar_version"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_nWAJYFE5EeSLed2XihD4SA" name="Adjunto">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_7e0QEFTOEeST3_OQcXnYyQ" name="Adjunto_Id" visibility="private">
@@ -415,6 +426,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vI4hsNDvEeSBCqjVxar53A" name="cambiar_version"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_o1TY8FE5EeSLed2XihD4SA" name="Historial">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ufoYoFTVEeST3_OQcXnYyQ" name="Fecha_de_Evento" visibility="private">
@@ -544,6 +556,9 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_McAcYNASEeSGeaoHJ1mgNQ" name="Proyecto_Id" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_a8CN4NDvEeSBCqjVxar53A" name="asignar_a_usuario"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_c6h64NDvEeSBCqjVxar53A" name="relacionar_proyecto"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_evAwQNDvEeSBCqjVxar53A" name="desasignar"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_pZBCgM9HEeSfa-zkojT8ag" memberEnd="_pZBCgc9HEeSfa-zkojT8ag _pY_0YM9HEeSfa-zkojT8ag">
     <name xsi:nil="true"/>
@@ -579,6 +594,8 @@ Si es otro valor este representa el id del proyecto al que pertenece</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GTlsoNASEeSGeaoHJ1mgNQ" name="HU_Id" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_XvGX0NDvEeSBCqjVxar53A" name="delegar_a_usuario"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y0RQINDvEeSBCqjVxar53A" name="desdelegar"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_TC_oMM_2EeSGeaoHJ1mgNQ" memberEnd="_TC_oMc_2EeSGeaoHJ1mgNQ _TC9zAM_2EeSGeaoHJ1mgNQ">
     <name xsi:nil="true"/>
